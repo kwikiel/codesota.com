@@ -1,0 +1,59 @@
+# codesota.com
+
+This is the feedback and issues repository for **CodeSOTA** - your comprehensive resource for the State of the Art in Machine Learning.
+
+## About CodeSOTA
+
+CodeSOTA (codesota.com) is a platform that provides up-to-date information about state-of-the-art machine learning benchmarks, datasets, and research areas. Visit the live site at:
+
+**https://www.codesota.com**
+
+## Purpose of This Repository
+
+This repository is dedicated to collecting feedback, bug reports, feature requests, and benchmark submissions from the community. The main project codebase is maintained separately.
+
+## How to Submit Issues
+
+We welcome contributions from the community! Please use the appropriate issue template when submitting:
+
+### Bug Reports
+
+Found a bug or something not working correctly? Please submit a bug report with detailed information about:
+- What happened
+- What you expected to happen
+- Steps to reproduce the issue
+- Browser and device information
+
+[Submit a Bug Report](../../issues/new?template=bug_report.md)
+
+### Feature Requests
+
+Have an idea for improving CodeSOTA? We'd love to hear it! Submit a feature request with:
+- A clear description of the proposed feature
+- The problem it solves or value it adds
+- Any examples or mockups (optional)
+
+[Submit a Feature Request](../../issues/new?template=feature_request.md)
+
+### OCR Benchmark Submissions
+
+Have new OCR (Optical Character Recognition) benchmark results to share? Submit them using our benchmark submission template:
+- Benchmark name and dataset
+- Model/method used
+- Performance metrics
+- Citation/reference information
+
+[Submit OCR Benchmark Results](../../issues/new?template=benchmark_submission.md)
+
+## Community Guidelines
+
+- Be respectful and constructive
+- Search existing issues before creating new ones
+- Provide as much detail as possible
+- Stay on topic
+
+## Contact
+
+For general inquiries about CodeSOTA, please visit [codesota.com](https://www.codesota.com).
+
+Thank you for helping make CodeSOTA better!
