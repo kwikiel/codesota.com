@@ -1,0 +1,176 @@
+[
+  {
+    "id": "1",
+    "type": "community_submission",
+    "title": "Please consider covering agent-memory / agent preflight-memory benchmarks as a CodeSOTA area, including Agent Memory Ben",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "2",
+    "type": "code",
+    "title": "Audrey: persistent memory and continuity engine for Claude Code and AI agents",
+    "url": "https://github.com/Evilander/Audrey",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "3",
+    "type": "benchmark_site",
+    "title": "Audrey Memory Benchmark Report",
+    "url": "https://huggingface.co/spaces/Evilander/audrey-memory-benchmark-report",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "4",
+    "type": "independent_eval",
+    "title": "Audrey memory benchmark artifacts dataset",
+    "url": "https://huggingface.co/datasets/Evilander/audrey-memory-benchmark-artifacts",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "5",
+    "type": "community_submission",
+    "title": "Add Audrey as an AMB memory provider / leaderboard candidate",
+    "url": "https://github.com/vectorize-io/agent-memory-benchmark/issues/11",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "6",
+    "type": "paper",
+    "title": "[verify] trocr-large · sroie",
+    "url": "https://arxiv.org/abs/2109.10282",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "7",
+    "type": "community_submission",
+    "title": "Hi, I was going through your PaddleOCR-VL report and had a quick question about the claimed 167× cost reduction via self",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "8",
+    "type": "community_submission",
+    "title": "[source] Cheetah (Vicuna-13B) · demon-bench",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "10",
+    "type": "code",
+    "title": "JT-OCR on omnidocbench",
+    "url": "https://github.com/ToxicYP/JT-OCR",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "11",
+    "type": "paper",
+    "title": "pMF-H + FD-loss on imagenet-1k",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "13",
+    "type": "paper",
+    "title": "Letta on ds-medmemorybench-medmemorybench-benchmarking-agent-memory-in-personalized-healthcare-2026",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "14",
+    "type": "paper",
+    "title": "MemOS on ds-medmemorybench-medmemorybench-benchmarking-agent-memory-in-personalized-healthcare-2026",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "15",
+    "type": "paper",
+    "title": "GPT-5.5 on ds-physicianbench-physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "16",
+    "type": "paper",
+    "title": "Claude Opus 4.6 on ds-physicianbench-physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "17",
+    "type": "paper",
+    "title": "DeepSeek V4-Pro on ds-physicianbench-physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "18",
+    "type": "other",
+    "title": "TEST on gpqa",
+    "url": "http://codesota.com",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "19",
+    "type": "other",
+    "title": "Pulse on librispeech",
+    "url": "https://docs.smallest.ai/waves/v-4-0-0/documentation/speech-to-text-pulse/benchmarks/performance",
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "20",
+    "type": "paper",
+    "title": "Claude Code (Opus 4.7) on ds-collider-bench-2605.13950",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "21",
+    "type": "paper",
+    "title": "Codex CLI (GPT-5.5) on ds-collider-bench-2605.13950",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "22",
+    "type": "paper",
+    "title": "Collider-Bench: Benchmarking AI Agents with Particle Physics Analysis Reproduction",
+    "url": "https://arxiv.org/abs/2605.13950",
+    "authors": [
+      "Darius A. Faroughy",
+      "Sofia Palacios Schweitzer",
+      "Ian Pang",
+      "Siddharth Mishra-Sharma",
+      "David Shih"
+    ],
+    "publishedDate": null
+  },
+  {
+    "id": "23",
+    "type": "paper",
+    "title": "GPT-5.5 on 95",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  }
+]

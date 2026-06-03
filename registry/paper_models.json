@@ -1,0 +1,197 @@
+[
+  {
+    "paper": "14487",
+    "model": "segment-anything-model",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "2605.02240",
+    "model": "claude-opus-4-6",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.02240",
+    "model": "deepseek-v4-pro",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.02240",
+    "model": "gpt-5-5",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.11814",
+    "model": "a-mem",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.11814",
+    "model": "letta",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.11814",
+    "model": "memos",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.11814",
+    "model": "memrl",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.13950",
+    "model": "claude-code-haiku-4-5",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.13950",
+    "model": "claude-code-opus-4-7",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.13950",
+    "model": "claude-code-sonnet-4-6",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.13950",
+    "model": "codex-cli-gpt-5-4-mini",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.13950",
+    "model": "codex-cli-gpt-5-5",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "2605.13950",
+    "model": "forgecode-deepseek-v4",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "41912",
+    "model": "qwen2-5-72b-instruct",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "41912",
+    "model": "qwen2-5-plus",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "47876",
+    "model": "plm",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "54349",
+    "model": "hunyuanocr",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "57854",
+    "model": "claude-opus-4-6",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "57854",
+    "model": "claude-sonnet-4-6",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "57854",
+    "model": "gemini-3-1-pro",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "57854",
+    "model": "gpt-5-4",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "57854",
+    "model": "minimax-m2-7",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "57854",
+    "model": "qwen3-5-397b-a17b",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "benchevolver-frontier-task-synthesis-via-solution-centric-evolution-2026",
+    "model": "deepseek-v4-pro",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "benchevolver-frontier-task-synthesis-via-solution-centric-evolution-2026",
+    "model": "gemini-3-1-pro",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "benchevolver-frontier-task-synthesis-via-solution-centric-evolution-2026",
+    "model": "gpt-5-4",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "benchevolver-frontier-task-synthesis-via-solution-centric-evolution-2026",
+    "model": "gpt-5-5",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "benchevolver-frontier-task-synthesis-via-solution-centric-evolution-2026",
+    "model": "qwen-3-7-max",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "claude-opus-4-6",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "claude-opus-4-7",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "claude-sonnet-4-6",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "deepseek-v4-pro",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "gpt-5-4",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "gpt-5-5",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "model": "kimi-k2-6",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "representation-fr-chet-loss-for-visual-generation-2026",
+    "model": "imf-xl-fd-loss",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "representation-fr-chet-loss-for-visual-generation-2026",
+    "model": "jit-h-fd-loss",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "representation-fr-chet-loss-for-visual-generation-2026",
+    "model": "pmf-h-fd-loss",
+    "relationship": "evaluates"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "paper": "14487",
+    "dataset": "413",
+    "relationship": "uses"
+  },
+  {
+    "paper": "14487",
+    "dataset": "417",
+    "relationship": "uses"
+  },
+  {
+    "paper": "14487",
+    "dataset": "418",
+    "relationship": "uses"
+  },
+  {
+    "paper": "2605.02240",
+    "dataset": "ds-physicianbench-physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "relationship": "uses"
+  },
+  {
+    "paper": "2605.11814",
+    "dataset": "ds-medmemorybench-medmemorybench-benchmarking-agent-memory-in-personalized-healthcare-2026",
+    "relationship": "uses"
+  },
+  {
+    "paper": "2605.13950",
+    "dataset": "ds-collider-bench-2605.13950",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "188",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "191",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "20",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "312",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "318",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "319",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "321",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "323",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "326",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "396",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "42",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "421",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "422",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "423",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "424",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "45",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "51",
+    "relationship": "uses"
+  },
+  {
+    "paper": "41912",
+    "dataset": "95",
+    "relationship": "uses"
+  },
+  {
+    "paper": "47876",
+    "dataset": "425",
+    "relationship": "uses"
+  },
+  {
+    "paper": "54349",
+    "dataset": "155",
+    "relationship": "uses"
+  },
+  {
+    "paper": "54349",
+    "dataset": "426",
+    "relationship": "uses"
+  },
+  {
+    "paper": "57854",
+    "dataset": "academiclaw",
+    "relationship": "uses"
+  },
+  {
+    "paper": "agentless-2024",
+    "dataset": "swe-bench",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "autocoderover-2024",
+    "dataset": "swe-bench",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "benchevolver-frontier-task-synthesis-via-solution-centric-evolution-2026",
+    "dataset": "95",
+    "relationship": "uses"
+  },
+  {
+    "paper": "bixbench-2025",
+    "dataset": "bixbench",
+    "relationship": "introduces"
+  },
+  {
+    "paper": "openhands-2024",
+    "dataset": "swe-bench",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "dataset": "ds-physicianbench-physicianbench-evaluating-llm-agents-in-real-world-ehr-environments-2026",
+    "relationship": "uses"
+  },
+  {
+    "paper": "representation-fr-chet-loss-for-visual-generation-2026",
+    "dataset": "imagenet-1k",
+    "relationship": "uses"
+  },
+  {
+    "paper": "swe-agent-2024",
+    "dataset": "swe-bench",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "swe-bench-2023",
+    "dataset": "swe-bench",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "swe-bench-multimodal",
+    "dataset": "swe-bench",
+    "relationship": "evaluates"
+  },
+  {
+    "paper": "wildasr-2025",
+    "dataset": "fleurs",
+    "relationship": "uses"
+  },
+  {
+    "paper": "wildasr-2025",
+    "dataset": "wildasr",
+    "relationship": "introduces"
+  }
+]

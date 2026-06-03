@@ -8,9 +8,22 @@ CodeSOTA (codesota.com) is a platform that provides up-to-date information about
 
 **https://www.codesota.com**
 
+## The Registry
+
+The CodeSOTA registry — the dated, sourced, tiered record behind every number on the site — is
+published here as plain JSON, diffable and forkable:
+
+**→ [`registry/`](registry/)**
+
+`registry/benchmark_results.json` is the core data; see [`registry/README.md`](registry/README.md)
+for the full file list, schema, and how to submit corrections by issue or pull request. The live
+API serves the same data at [codesota.com/api/tasks](https://www.codesota.com/api/tasks).
+
 ## Purpose of This Repository
 
-This repository is dedicated to collecting feedback, bug reports, feature requests, and benchmark submissions from the community. The main project codebase is maintained separately.
+This repository hosts the public **registry** (above) and collects feedback, bug reports, feature
+requests, and benchmark submissions from the community. The main site codebase is maintained
+separately.
 
 ## How to Submit Issues
 

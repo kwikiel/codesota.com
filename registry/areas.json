@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Computer Vision",
+    "description": "Research focused on enabling computers to interpret and understand visual information from images and videos, including tasks such as image classification, object detection, segmentation, and visual recognition."
+  },
+  {
+    "id": "2",
+    "name": "Natural Language Processing",
+    "description": "The field of AI concerned with the interaction between computers and human language, encompassing text understanding, generation, translation, sentiment analysis, and question answering."
+  },
+  {
+    "id": "3",
+    "name": "General",
+    "description": "A broad category encompassing machine learning research and tasks that don't fit specifically into vision or language domains, including general ML methods, optimization, and cross-domain approaches."
+  },
+  {
+    "id": "6",
+    "name": "Audio",
+    "description": "Research on processing, understanding, and generating audio signals, including speech recognition, music generation, sound classification, and audio synthesis."
+  },
+  {
+    "id": "7",
+    "name": "Time-series",
+    "description": null
+  },
+  {
+    "id": "8",
+    "name": "Other",
+    "description": null
+  },
+  {
+    "id": "adversarial",
+    "name": "Adversarial",
+    "description": "Need to test model robustness? Benchmark resilience against adversarial attacks and evaluate defense mechanisms."
+  },
+  {
+    "id": "agentic",
+    "name": "Agentic AI",
+    "description": "Benchmarks for autonomous agents, software engineering agents, web agents, desktop agents, and terminal-based task execution."
+  },
+  {
+    "id": "audio",
+    "name": "Audio",
+    "description": "Processing general audio signals? Test your models on sound classification, event detection, music analysis, and source separation."
+  },
+  {
+    "id": "computer-code",
+    "name": "Computer Code",
+    "description": "Developing AI coding assistants? Test code generation, completion, translation, bug detection, and repair capabilities."
+  },
+  {
+    "id": "computer-vision",
+    "name": "Computer Vision",
+    "description": "Building systems that understand images and video? Find benchmarks for recognition, detection, segmentation, and document analysis tasks."
+  },
+  {
+    "id": "graphs",
+    "name": "Graphs",
+    "description": "Working with network data? Test graph learning models on node classification, link prediction, and molecular property tasks."
+  },
+  {
+    "id": "industrial-inspection",
+    "name": "Industrial Inspection",
+    "description": "Building quality control systems? Benchmark anomaly detection, defect classification, and automated visual inspection for manufacturing."
+  },
+  {
+    "id": "knowledge-base",
+    "name": "Knowledge Base",
+    "description": "Building knowledge systems? Evaluate graph completion, relation extraction, and entity linking performance."
+  },
+  {
+    "id": "medical",
+    "name": "Medical",
+    "description": "Building healthcare AI? Find benchmarks for medical imaging, disease diagnosis, clinical text processing, and drug discovery."
+  },
+  {
+    "id": "methodology",
+    "name": "Methodology",
+    "description": "Improving learning efficiency? Test self-supervised, few-shot, transfer, and continual learning approaches."
+  },
+  {
+    "id": "mobile-development",
+    "name": "Mobile Development",
+    "description": "Benchmarks evaluating AI code generation for mobile platforms — React Native, Flutter, Swift, Kotlin. Tests real-world patterns: navigation, animation, state management, platform APIs."
+  },
+  {
+    "id": "multimodal",
+    "name": "Multimodal",
+    "description": "Combining vision and language? Evaluate image captioning, visual QA, text-to-image generation, and cross-modal retrieval models."
+  },
+  {
+    "id": "nlp",
+    "name": "Natural Language Processing",
+    "description": "Processing and understanding text? Evaluate your models on language understanding, generation, translation, and information extraction benchmarks."
+  },
+  {
+    "id": "reasoning",
+    "name": "Reasoning",
+    "description": "Testing if your model can think logically? Benchmark math problem solving, commonsense understanding, and multi-step reasoning capabilities."
+  },
+  {
+    "id": "reinforcement-learning",
+    "name": "Reinforcement Learning",
+    "description": "Training agents to make decisions? Benchmark your policies on game playing, continuous control, and offline learning tasks."
+  },
+  {
+    "id": "robots",
+    "name": "Robots",
+    "description": "Building robotic systems? Find benchmarks for manipulation, navigation, and simulation-to-reality transfer."
+  },
+  {
+    "id": "speech",
+    "name": "Speech",
+    "description": "Working with voice and audio? Evaluate speech-to-text accuracy, voice synthesis quality, and speaker identification performance."
+  },
+  {
+    "id": "time-series",
+    "name": "Time Series",
+    "description": "Predicting future trends or detecting anomalies? Benchmark forecasting accuracy and pattern recognition in sequential data."
+  }
+]

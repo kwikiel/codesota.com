@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "entityType": "benchmark_result",
+    "entityId": "15390",
+    "signalType": "official",
+    "grade": "source",
+    "label": "Source auto-approved by editor",
+    "note": "The paper introduces MedMemoryBench. Results are extracted from Table 3 (Main results) under the 'Mixed' setting for the 'Avg.' column. The dataset ID was mapped from the provided list.; source: Table 3",
+    "source": "13"
+  },
+  {
+    "id": "2",
+    "entityType": "benchmark_result",
+    "entityId": "15391",
+    "signalType": "official",
+    "grade": "source",
+    "label": "Source auto-approved by editor",
+    "note": "The paper introduces MedMemoryBench. Results are extracted from Table 3 (Main results) under the 'Mixed' setting for the 'Avg.' column. The dataset ID was mapped from the provided list.; source: Table 3",
+    "source": "14"
+  },
+  {
+    "id": "3",
+    "entityType": "benchmark_result",
+    "entityId": "15392",
+    "signalType": "official",
+    "grade": "source",
+    "label": "Source verified",
+    "note": null,
+    "source": "15"
+  },
+  {
+    "id": "4",
+    "entityType": "benchmark_result",
+    "entityId": "15393",
+    "signalType": "official",
+    "grade": "source",
+    "label": "Source verified",
+    "note": null,
+    "source": "11"
+  },
+  {
+    "id": "5",
+    "entityType": "benchmark_result",
+    "entityId": "15394",
+    "signalType": "official",
+    "grade": "source",
+    "label": "Source verified",
+    "note": null,
+    "source": "10"
+  },
+  {
+    "id": "6",
+    "entityType": "benchmark_result",
+    "entityId": "15395",
+    "signalType": "official",
+    "grade": "source",
+    "label": "Source verified",
+    "note": null,
+    "source": "17"
+  }
+]

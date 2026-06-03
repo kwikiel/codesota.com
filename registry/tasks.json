@@ -1,0 +1,884 @@
+[
+  {
+    "id": "3d-generation",
+    "area": "1",
+    "name": "3D generation",
+    "description": "3D generation is the process of using artificial intelligence (AI) to automatically create three-dimensional (3D) models from various inputs like text descriptions or images, bypassing traditional manual modeling. These advanced AI models, often employing techniques like deep learning, can generate complex 3D structures in formats such as meshes or point clouds for use in fields like gaming, augmented reality (AR), and 3D printing."
+  },
+  {
+    "id": "3d-understanding",
+    "area": "1",
+    "name": "3D Understanding",
+    "description": "Tasks related to understanding and processing 3D data, including 3D object detection, 3D reconstruction, multi-view estimation, and 3D scene understanding."
+  },
+  {
+    "id": "adversarial-attacks",
+    "area": "adversarial",
+    "name": "Adversarial Attacks",
+    "description": "Generating adversarial examples to fool models."
+  },
+  {
+    "id": "adversarial-robustness",
+    "area": "adversarial",
+    "name": "Adversarial Robustness",
+    "description": "Defending against adversarial examples."
+  },
+  {
+    "id": "agent-memory",
+    "area": "agentic",
+    "name": "Agent Memory",
+    "description": "Benchmarks for persistent agent memory: recall, updates, deletes, contradictions, valid-time beliefs, and evidence-backed preflight decisions."
+  },
+  {
+    "id": "agents",
+    "area": "agentic",
+    "name": "Task agents",
+    "description": "AI agents are autonomous software systems that use artificial intelligence to achieve goals and complete tasks on behalf of users, acting independently to perceive their environment, make decisions, and take actions without constant human intervention. They use advanced capabilities like reasoning, memory, planning, and learning, often leveraging large language models (LLMs) and other AI tools to interpret information and perform complex workflows across various industries."
+  },
+  {
+    "id": "anomaly-detection",
+    "area": "industrial-inspection",
+    "name": "Anomaly Detection",
+    "description": "Detecting defects and anomalies in manufacturing (MVTec AD, VisA)."
+  },
+  {
+    "id": "any-to-any",
+    "area": "multimodal",
+    "name": "Any-to-Any",
+    "description": "Any-to-any models are the endgame of multimodal AI — a single architecture that can accept and generate any combination of text, images, audio, and video. GPT-4o (2024) was the first production model to natively process and generate across modalities in real time, and Gemini 2.0 pushed this further with interleaved multimodal outputs. The technical challenge is enormous: unifying tokenization across modalities, preventing mode collapse where the model favors text over other outputs, and maintaining quality competitive with specialist models in each domain. Meta's Chameleon and open efforts like NExT-GPT explored this space, but true any-to-any generation at frontier quality remains the province of the largest labs."
+  },
+  {
+    "id": "arithmetic-reasoning",
+    "area": "reasoning",
+    "name": "Arithmetic Reasoning",
+    "description": "Arithmetic reasoning — solving computation-heavy problems stated in natural language — tests whether models can reliably execute multi-step calculations. GPT-4 and Claude showed dramatic improvement over GPT-3 on benchmarks like GSM8K's arithmetic subset, but systematic errors on large-number multiplication and multi-digit division persist. Chain-of-thought prompting (Wei et al., 2022) was the breakthrough technique, and tool-augmented approaches (letting models call a calculator) essentially solve the task — making the pure reasoning version a test of memorization vs. genuine computation."
+  },
+  {
+    "id": "atari-games",
+    "area": "reinforcement-learning",
+    "name": "Atari Games",
+    "description": "Atari games became the canonical RL benchmark when DeepMind's DQN (2013) learned to play Breakout from raw pixels, but the goalposts keep moving. Agent57 (2020) was the first to achieve superhuman scores on all 57 games, and recent work like BBF and MEME shows that sample efficiency — not just final performance — is the new frontier. The benchmark's age is both its strength (decades of comparable results) and weakness (it doesn't capture the open-ended reasoning modern RL needs)."
+  },
+  {
+    "id": "audio-captioning",
+    "area": "audio",
+    "name": "Audio Captioning",
+    "description": "Generating text descriptions of audio content."
+  },
+  {
+    "id": "audio-classification",
+    "area": "6",
+    "name": "Audio Classification",
+    "description": "Classification of audio signals into predefined categories such as music genres, environmental sounds, or speaker identification."
+  },
+  {
+    "id": "audio-language-models",
+    "area": "6",
+    "name": "Audio-Language Models",
+    "description": "Audio-Language Models (ALMs) are a form of artificial intelligence that extend natural language processing (NLP) to the domain of audio, enabling computers to understand, generate, and reason about sounds and speech by integrating audio data with language understanding. Trained on audio-text data, ALMs bridge the gap between acoustic signals and linguistic meaning, allowing for tasks like zero-shot audio recognition, audio captioning, and the creation of generative audio, such as text-to-audio synthesis."
+  },
+  {
+    "id": "audio-text-to-text",
+    "area": "multimodal",
+    "name": "Audio-Text-to-Text",
+    "description": "Audio-text-to-text is the backbone of voice assistants that actually understand context — models that jointly process speech and text to generate grounded responses. Whisper (2022) cracked robust transcription, but the real leap came when Gemini 1.5 and GPT-4o (2024) began reasoning natively over audio tokens alongside text, eliminating the lossy ASR-then-LLM pipeline. The key challenges are handling overlapping speakers, noisy environments, and preserving prosodic cues like sarcasm or hesitation that pure transcription destroys. Benchmarks like SUPERB and Dynamic-SUPERB are expanding, but real-world spoken dialogue understanding remains far ahead of what leaderboards capture."
+  },
+  {
+    "id": "audio-to-audio",
+    "area": "audio",
+    "name": "Audio-to-Audio",
+    "description": "Audio-to-audio encompasses speech enhancement, voice conversion, source separation, and style transfer — any task where audio goes in and transformed audio comes out. Speech enhancement (denoising) was revolutionized by Meta's Demucs and Microsoft's DCCRN, now used in every video call; voice conversion took a leap with RVC and So-VITS-SVC enabling zero-shot voice cloning that sparked both creative tools and deepfake concerns. Source separation (isolating vocals, drums, bass from a mix) reached near-production quality with HTDemucs and Band-Split RNN, making stems extraction a solved problem for most music. The field is converging toward unified models that handle multiple audio transformations through natural language instructions, blurring the line with text-to-audio generation."
+  },
+  {
+    "id": "automatic-speech-recognition",
+    "area": "6",
+    "name": "Automatic Speech Recognition",
+    "description": "Automatic Speech Recognition (ASR) is the technology that converts spoken language into written text. ASR systems process audio signals containing human speech and transcribe them into readable text format. These systems use acoustic models, language models, and often neural networks to recognize phonemes, words, and sentences from audio input. ASR is foundational for applications like voice assistants (Siri, Alexa), transcription services, voice-controlled systems, and accessibility tools for the hearing impaired."
+  },
+  {
+    "id": "autonomous-coding",
+    "area": "agentic",
+    "name": "Autonomous Coding",
+    "description": "Agent benchmarks where systems complete coding, terminal, repository, or developer-workflow tasks with minimal human intervention."
+  },
+  {
+    "id": "bioinformatics-agents",
+    "area": "agentic",
+    "name": "Bioinformatics Agents",
+    "description": "LLM-agent benchmarks for computational biology — exploring datasets, running multi-step analyses, and interpreting biological results."
+  },
+  {
+    "id": "bug-detection",
+    "area": "computer-code",
+    "name": "Bug Detection",
+    "description": "Identifying bugs and vulnerabilities in code."
+  },
+  {
+    "id": "clinical-nlp",
+    "area": "medical",
+    "name": "Clinical NLP",
+    "description": "Processing clinical notes and medical text."
+  },
+  {
+    "id": "code-completion",
+    "area": "computer-code",
+    "name": "Code Completion",
+    "description": "Predicting the next tokens in code sequences."
+  },
+  {
+    "id": "code-generation",
+    "area": "computer-code",
+    "name": "Code Generation",
+    "description": "Generating code from natural language descriptions (HumanEval, MBPP)."
+  },
+  {
+    "id": "code-summarization",
+    "area": "computer-code",
+    "name": "Code Summarization",
+    "description": "Generating natural language descriptions of code."
+  },
+  {
+    "id": "code-translation",
+    "area": "computer-code",
+    "name": "Code Translation",
+    "description": "Converting code between programming languages."
+  },
+  {
+    "id": "coding-agents",
+    "area": "3",
+    "name": "Coding Agents",
+    "description": "Coding agents are autonomous, AI-powered software development tools that understand natural language prompts and execute multi-step tasks to automate coding, bug fixing, and entire software workflows. They act as intelligent assistants within the software development lifecycle, capable of understanding code, generating new code, optimizing existing code, debugging, and handling tasks like documentation and feature scaffolding with minimal user supervision. Examples of coding agents include Claude Code and Cursor Agent."
+  },
+  {
+    "id": "commonsense-reasoning",
+    "area": "reasoning",
+    "name": "Commonsense Reasoning",
+    "description": "Commonsense reasoning — answering questions that require everyday knowledge about how the physical and social world works — is measured by benchmarks like CommonsenseQA, PIQA, and HellaSwag. Large language models have largely saturated early benchmarks (HellaSwag went from 95% to near-ceiling by 2023), forcing a shift to harder tests like ARC-Challenge and Winoground. The uncomfortable insight is that scale alone buys enormous commonsense performance, but adversarial probing still reveals brittle failures on spatial reasoning, temporal logic, and physical intuition that humans find trivial."
+  },
+  {
+    "id": "computer-use-agents",
+    "area": "3",
+    "name": "Computer Use Agents",
+    "description": "Computer Use Agents are AI systems that can interact with computer interfaces, understand graphical user interfaces, execute tasks, and navigate software applications autonomously. These agents combine vision, language understanding, and action planning to perform complex computer-based tasks."
+  },
+  {
+    "id": "continual-learning",
+    "area": "methodology",
+    "name": "Continual Learning",
+    "description": "Learning new tasks without forgetting old ones."
+  },
+  {
+    "id": "continuous-control",
+    "area": "reinforcement-learning",
+    "name": "Continuous Control",
+    "description": "Continuous control — learning smooth motor commands in simulated physics — was transformed by MuJoCo and the OpenAI Gym suite in the mid-2010s. SAC (2018) and TD3 became reliable baselines, but the field shifted toward harder locomotion (humanoid parkour, dexterous hands) and sim-to-real transfer after DeepMind's dm_control and Isaac Gym raised the bar. DreamerV3 (2023) showed that world-model approaches can match or beat model-free methods across dozens of control tasks with a single hyperparameter set, signaling a move toward generalist RL agents."
+  },
+  {
+    "id": "cross-modal-retrieval",
+    "area": "multimodal",
+    "name": "Cross-Modal Retrieval",
+    "description": "Cross-modal retrieval finds the best match between items in different modalities — given text, find the right image; given an image, find the right caption. CLIP (2021) revolutionized the field by learning a shared embedding space from 400M image-text pairs, spawning an entire ecosystem of models like SigLIP, EVA-CLIP, and OpenCLIP that power everything from search engines to generative model guidance. The challenge has shifted from coarse retrieval to fine-grained discrimination: telling apart nearly identical images based on subtle textual differences, or retrieving across underrepresented domains and languages. Recall@K on Flickr30K and COCO may look saturated, but real-world deployment exposes failures on long-tail queries and compositional descriptions."
+  },
+  {
+    "id": "depth-estimation",
+    "area": "1",
+    "name": "Depth estimation",
+    "description": "Depth estimation is the computer vision task for inferring the 3D spatial structure of a scene from 2D images, often resulting in a depth map that shows the distance of each pixel from the camera. It enables applications like autonomous navigation, 3D reconstruction, and augmented reality by providing a measure of distance for various points in a scene. Depth estimation can use a single camera (monocular) or multiple cameras (stereoscopic) and can be either absolute, providing precise measurements in units like meters, or relative, which indicates the order of distances without exact values."
+  },
+  {
+    "id": "disease-classification",
+    "area": "medical",
+    "name": "Disease Classification",
+    "description": "Diagnosing diseases from medical images or data."
+  },
+  {
+    "id": "document-classification",
+    "area": "computer-vision",
+    "name": "Document Image Classification",
+    "description": "Classifying documents by type or category"
+  },
+  {
+    "id": "document-layout-analysis",
+    "area": "computer-vision",
+    "name": "Document Layout Analysis",
+    "description": "Analyzing the layout structure of documents"
+  },
+  {
+    "id": "document-ocr",
+    "area": "computer-vision",
+    "name": "Optical Character Recognition",
+    "description": "Extracting text from document images"
+  },
+  {
+    "id": "document-parsing",
+    "area": "computer-vision",
+    "name": "Document Parsing",
+    "description": "Parsing document structure and content"
+  },
+  {
+    "id": "document-understanding",
+    "area": "computer-vision",
+    "name": "Document Understanding",
+    "description": "Document understanding requires parsing visually rich documents — invoices, forms, scientific papers, tables — where layout and typography carry as much meaning as the text itself. LayoutLMv3 (2022) and Donut pioneered layout-aware pretraining, but the game changed when GPT-4V and Claude 3 demonstrated that general-purpose multimodal LLMs could match or exceed specialist models on DocVQA and InfographicsVQA without fine-tuning. The persistent challenges are multi-page reasoning, handling handwritten text mixed with print, and accurately extracting structured data from complex table layouts. This task sits at the intersection of OCR, layout analysis, and language understanding, making it one of the highest-value enterprise AI applications."
+  },
+  {
+    "id": "drug-discovery",
+    "area": "medical",
+    "name": "Drug Discovery",
+    "description": "Predicting molecular properties and drug interactions."
+  },
+  {
+    "id": "embedding-models",
+    "area": "3",
+    "name": "Embedding models",
+    "description": "Embedding models are algorithms that transform complex, high-dimensional data—like words, images, or audio—into dense, low-dimensional numerical vectors. These vectors capture the underlying meaning, context, and relationships within the data, allowing machines to understand and process it more efficiently. By representing data as points in a shared mathematical space, embedding models enable tasks such as semantic search, recommendation systems, and image recognition by placing similar items close together."
+  },
+  {
+    "id": "entity-linking",
+    "area": "knowledge-base",
+    "name": "Entity Linking",
+    "description": "Linking mentions to knowledge base entities."
+  },
+  {
+    "id": "feature-extraction",
+    "area": "nlp",
+    "name": "Feature Extraction",
+    "description": "Feature extraction — generating dense vector embeddings from text — is the unsung infrastructure layer powering semantic search, RAG pipelines, clustering, and recommendation systems. Sentence-BERT (2019) made it practical, but the field exploded in 2023-2024 with instruction-tuned embedding models like E5-Mistral, GTE-Qwen2, and Nomic Embed that turned decoder-only LLMs into embedding engines, pushing MTEB scores past 70 average across 50+ tasks. The key insight was that pre-training scale transfers to embedding quality — a 7B parameter embedding model crushes a 110M one on zero-shot retrieval. Matryoshka representation learning (Kusupati et al., 2022) added the ability to truncate embeddings to any dimension without retraining, making deployment flexible across latency and storage budgets."
+  },
+  {
+    "id": "few-shot-image-classification",
+    "area": "1",
+    "name": "Few-Shot Image Classification",
+    "description": "Image classification with limited labeled examples per class (few-shot learning). Models are evaluated on their ability to classify images into categories with only a handful of training examples (typically 1-10) per class."
+  },
+  {
+    "id": "few-shot-learning",
+    "area": "methodology",
+    "name": "Few-Shot Learning",
+    "description": "Learning from very few examples."
+  },
+  {
+    "id": "fill-mask",
+    "area": "nlp",
+    "name": "Fill-Mask",
+    "description": "Fill-mask (masked language modeling) is the original BERT pretraining objective: mask 15% of tokens, predict what goes there. It powered the encoder revolution that dominated NLP from 2018 to 2022 and remains the training signal behind models like RoBERTa, DeBERTa, and XLM-RoBERTa that still run most production classification and NER systems. As a standalone task it has limited direct applications, but probing what a model predicts for masked slots became a key technique for analyzing bias, factual knowledge, and linguistic competence stored in model weights. The task has faded from the research spotlight as decoder-only (GPT-style) pretraining proved more scalable, but encoder models trained with MLM remain the most cost-efficient option for tasks that need fast inference on structured prediction."
+  },
+  {
+    "id": "general",
+    "area": "3",
+    "name": "General",
+    "description": "Task for General"
+  },
+  {
+    "id": "graph-classification",
+    "area": "graphs",
+    "name": "Graph Classification",
+    "description": "Graph classification — predicting a label for an entire graph, not individual nodes — matters for molecular screening, social network analysis, and program verification. GIN (Xu et al., 2019) formalized the connection between GNN expressiveness and the Weisfeiler-Leman graph isomorphism test, and the TU datasets became standard benchmarks. Recent work on graph transformers (GPS, Exphormer) and higher-order GNNs pushes beyond WL limits, while OGB's ogbg-molhiv and ogbg-molpcba provide more rigorous large-scale evaluation than the classic small-graph benchmarks."
+  },
+  {
+    "id": "handwriting-recognition",
+    "area": "computer-vision",
+    "name": "Handwriting Recognition",
+    "description": "Recognizing handwritten text"
+  },
+  {
+    "id": "hcast",
+    "area": "agentic",
+    "name": "HCAST",
+    "description": "HCAST (Human-Calibrated Autonomy Software Tasks) is a 90-task benchmark from METR designed to measure AI autonomy with human-calibrated baselines — every task has known completion times from professional software engineers, enabling direct human-vs-AI comparison. Tasks span realistic software engineering scenarios at varying difficulty levels, from simple bug fixes to complex architectural changes. The human calibration is what makes HCAST distinctive: instead of just pass/fail, it reveals whether AI agents are 10x slower, equally fast, or approaching superhuman speed on specific task types."
+  },
+  {
+    "id": "image-captioning",
+    "area": "multimodal",
+    "name": "Image Captioning",
+    "description": "Image captioning — generating natural language descriptions of images — was the task that launched the modern vision-language era when Show and Tell (2015) paired CNNs with RNNs. The field progressed through BLIP, BLIP-2, and CoCa, each improving grounding and descriptive richness, until multimodal LLMs effectively subsumed it as a special case of image-text-to-text. COCO Captions and NoCaps remain standard benchmarks, but CIDEr and SPICE scores have largely saturated — the real frontier is dense captioning, generating paragraph-level descriptions that capture spatial relationships, attributes, and background context that brief captions miss. Captioning's importance now lies more in its role as training signal for other vision-language tasks than as a standalone evaluation."
+  },
+  {
+    "id": "image-classification",
+    "area": "1",
+    "name": "Image Classification",
+    "description": "Image Classification is a fundamental task in computer vision that aims to assign a label or class to an entire image. The goal is to train a model that can recognize and categorize images into predefined classes."
+  },
+  {
+    "id": "image-editing",
+    "area": "1",
+    "name": "Image editing",
+    "description": "Image editing is the process of altering and improving images, whether digital or traditional, using specialized tools and software to enhance their quality, appearance, and functionality. This can involve simple tasks like cropping and color correction or complex techniques such as layering, retouching to remove blemishes, and creating new composite images. The goal of image editing is to make images more aesthetically pleasing, correct flaws, or achieve a desired artistic effect."
+  },
+  {
+    "id": "image-feature-extraction",
+    "area": "computer-vision",
+    "name": "Image Feature Extraction",
+    "description": "Image feature extraction produces dense vector representations that encode visual semantics — the hidden layer outputs that power retrieval, clustering, similarity search, and transfer learning. The field progressed from hand-crafted descriptors (SIFT, SURF) to CNN features (ResNet, EfficientNet) to self-supervised vision transformers like DINOv2 (2023), which produces features so rich they rival task-specific models on segmentation, depth, and classification without any fine-tuning. DINOv2's success proved that visual foundation models can match the \"extract and use everywhere\" paradigm that BERT established in NLP. The quality of your feature extractor determines the ceiling for virtually every downstream vision task."
+  },
+  {
+    "id": "image-generation",
+    "area": "1",
+    "name": "Image generation",
+    "description": "AI image generation uses generative AI to create new visual content from text prompts or existing images, by learning patterns from massive datasets of images and text. These trained algorithms, often neural networks, then produce novel images that are statistically likely to fit the provided prompt, mimicking styles, shapes, and colors they've learned. Examples of such models include Midjourney, Stable Diffusion, and DALL-E."
+  },
+  {
+    "id": "image-segmentation",
+    "area": "1",
+    "name": "Image segmentation",
+    "description": "Image segmentation is a computer vision technique that divides a digital image into multiple parts or \"segments,\" where each segment contains pixels with similar characteristics, such as color, texture, or brightness. The goal is to simplify an image by changing its representation into something more meaningful and easier to analyze, often by identifying and locating objects, their boundaries, and different regions within the image. This process has wide-ranging applications, from medical image analysis to autonomous vehicles and satellite imagery."
+  },
+  {
+    "id": "image-text-to-image",
+    "area": "multimodal",
+    "name": "Image-Text-to-Image",
+    "description": "Image-text-to-image covers instruction-guided image editing — taking a source image plus a text command and producing a modified result. InstructPix2Pix (2023) demonstrated this could work zero-shot, and subsequent models like DALL-E 3's inpainting, Ideogram, and Stable Diffusion's img2img pipelines made it practical. The core difficulty is surgical precision: users want \"change the dress to red\" without altering the face, background, or lighting, which requires disentangling content from style at a level current architectures still fumble. Benchmarks are fragmented across editing fidelity, instruction-following, and identity preservation, making unified comparison difficult."
+  },
+  {
+    "id": "image-text-to-text",
+    "area": "multimodal",
+    "name": "Image-Text-to-Text",
+    "description": "Image-text-to-text exploded from a research curiosity to the dominant AI interface in under two years. GPT-4V (2023) proved multimodal LLMs could reason over images, Gemini 1.5 scaled to million-token contexts mixing text and vision, and Claude 3 showed that careful RLHF produces models that refuse to hallucinate about image content. MMMU and MMBench have become the standard evaluation gauntlet, but the real challenge is grounding — models still confabulate spatial relationships and struggle with fine-grained visual reasoning. This is the task that turned chatbots into visual assistants."
+  },
+  {
+    "id": "image-text-to-video",
+    "area": "multimodal",
+    "name": "Image-Text-to-Video",
+    "description": "Image-text-to-video is generative AI's hardest unsolved frontier — animating a still image according to a text prompt while maintaining temporal coherence and physical plausibility. Stable Video Diffusion (2023) and Runway Gen-2 showed early promise, Sora (2024) raised the bar dramatically with minute-long physically consistent clips, and Kling and Veo 2 pushed quality further. The fundamental challenge is that video generation requires implicit world models: objects must persist, lighting must evolve consistently, and motion must obey approximate physics across dozens of frames. Evaluation is still largely human-judged, with FVD and CLIP-temporal scores poorly correlating with perceived quality."
+  },
+  {
+    "id": "image-to-3d",
+    "area": "computer-vision",
+    "name": "Image-to-3D",
+    "description": "Image-to-3D reconstruction infers full 3D geometry from one or a few images — a fundamentally ill-posed problem that recent models solve with learned geometric priors. Traditional multi-view stereo required dozens of calibrated views, but single-image methods like One-2-3-45 (2023) and TripoSR leverage large-scale 3D training data to hallucinate plausible geometry from a single photo. 3D Gaussian Splatting (2023) revolutionized the representation side, enabling real-time rendering of reconstructed scenes. The practical gap is clear: scanned objects still look better than generated ones, but the convenience of snap-and-reconstruct is reshaping e-commerce product visualization and AR content creation."
+  },
+  {
+    "id": "image-to-image",
+    "area": "computer-vision",
+    "name": "Image-to-Image",
+    "description": "Image-to-image translation covers a vast family of tasks — super-resolution, style transfer, inpainting, colorization, denoising — unified by the idea of learning a mapping between image domains. Pix2Pix (2017) and CycleGAN showed paired and unpaired translation were both learnable, but diffusion models rewrote the playbook entirely. ControlNet (2023) demonstrated that conditioning Stable Diffusion on edges, depth, or poses gives surgical control over generation, while models like SUPIR push restoration quality beyond what was thought possible. The Swiss army knife of visual AI — nearly every creative and restoration workflow runs through some form of image-to-image."
+  },
+  {
+    "id": "image-to-video",
+    "area": "computer-vision",
+    "name": "Image-to-Video",
+    "description": "Image-to-video generation animates a single still image into a coherent video sequence — one of the hardest generation tasks because it demands both visual fidelity and temporal consistency. Stable Video Diffusion (2023) proved that fine-tuning image diffusion models on video data produces remarkably stable motion, and Runway's Gen-3 and Kling showed commercial viability. The key challenge remains physics-aware motion: objects should move naturally, lighting should evolve consistently, and the camera should behave like a real one. A cornerstone of the emerging AI filmmaking pipeline."
+  },
+  {
+    "id": "keypoint-detection",
+    "area": "computer-vision",
+    "name": "Keypoint Detection",
+    "description": "Keypoint detection localizes specific anatomical or structural landmarks — body joints, facial features, hand articulations — enabling pose estimation, gesture recognition, and motion capture. OpenPose (2017) first demonstrated real-time multi-person pose estimation, and the field has since progressed through HRNet, ViTPose, and RTMPose pushing both accuracy and speed. Modern systems detect 133 whole-body keypoints (body + hands + face) in real-time on mobile devices. The applications span from sports biomechanics (analyzing an athlete's form frame-by-frame) to sign language recognition and AR avatar puppeteering."
+  },
+  {
+    "id": "knowledge-graph-completion",
+    "area": "knowledge-base",
+    "name": "Knowledge Graph Completion",
+    "description": "Predicting missing links in knowledge graphs."
+  },
+  {
+    "id": "language-modeling",
+    "area": "2",
+    "name": "Language Modeling",
+    "description": "Language Modeling is the task of predicting the next word or character in a sequence given the previous context. Language models learn the probability distribution of word sequences and are foundational for many NLP applications including text generation, machine translation, and speech recognition."
+  },
+  {
+    "id": "link-prediction",
+    "area": "graphs",
+    "name": "Link Prediction",
+    "description": "Link prediction — inferring missing or future edges in a graph — underpins knowledge graph completion, drug-target discovery, and social network recommendation. TransE (2013) launched the knowledge graph embedding era, and the field matured through DistMult, RotatE, and CompGCN, benchmarked on FB15k-237 and WN18RR. The current frontier is inductive link prediction (generalizing to unseen entities), where GNN-based methods like NBFNet and foundation models like ULTRA (2024) show that a single model can transfer across entirely different knowledge graphs without retraining."
+  },
+  {
+    "id": "logical-reasoning",
+    "area": "reasoning",
+    "name": "Logical Reasoning",
+    "description": "Logical reasoning — formal deduction, constraint satisfaction, and syllogistic inference — exposes a core weakness in autoregressive language models: they pattern-match rather than prove. Benchmarks like LogiQA, FOLIO, and the ReClor reading comprehension test push models toward deductive rigor, and performance improves substantially with chain-of-thought and self-consistency decoding. But systematic evaluations (2023-2024) show that even frontier models fail on problems requiring more than 3-4 reasoning steps, and neurosymbolic approaches that compile to SAT solvers or proof assistants remain more reliable for true logical correctness."
+  },
+  {
+    "id": "machine-translation",
+    "area": "2",
+    "name": "Machine Translation",
+    "description": "Machine Translation is the task of automatically translating text from one natural language to another. The goal is to produce translations that preserve the meaning, style, and grammatical correctness of the source text while being fluent in the target language."
+  },
+  {
+    "id": "mask-generation",
+    "area": "computer-vision",
+    "name": "Mask Generation",
+    "description": "Mask generation produces pixel-precise segmentation masks for objects, and Meta's Segment Anything (SAM, 2023) transformed it from a specialized task into a foundational capability. Trained on 11M images with 1B+ masks, SAM demonstrated that a single promptable model — click a point, draw a box, or provide text — could segment virtually anything. SAM 2 (2024) extended this to video with real-time tracking, while EfficientSAM and FastSAM address the original's computational cost. The \"foundation model\" moment for segmentation, analogous to what GPT-3 was for NLP."
+  },
+  {
+    "id": "mathematical-reasoning",
+    "area": "reasoning",
+    "name": "Mathematical Reasoning",
+    "description": "Mathematical reasoning benchmarks — GSM8K, MATH, Minerva, and the competition-level AIME/AMC tests — have become the primary yardstick for frontier model intelligence. OpenAI's o1 and o3 (2024-2025) cracked problems that were previously out of reach by scaling inference-time compute with search and verification. The MATH benchmark went from ~50% (GPT-4, early 2023) to >90% (o1, late 2024) in under two years, but Olympiad-level problems (FrontierMath, Putnam) and formal theorem proving (Lean 4) remain far from solved, preserving mathematical reasoning as the clearest ladder for measuring progress."
+  },
+  {
+    "id": "medical-image-segmentation",
+    "area": "medical",
+    "name": "Medical Image Segmentation",
+    "description": "Segmenting organs and abnormalities in medical images."
+  },
+  {
+    "id": "molecular-property-prediction",
+    "area": "graphs",
+    "name": "Molecular Property Prediction",
+    "description": "Molecular property prediction — estimating toxicity, solubility, binding affinity, or other properties from molecular structure — is the workhorse task of AI-driven drug discovery. GNNs operate on molecular graphs while transformer approaches (ChemBERTa, Uni-Mol) use SMILES strings or 3D coordinates. MoleculeNet (2018) and the Therapeutic Data Commons (TDC) provide standardized benchmarks, but the real bottleneck is distribution shift: models trained on known chemical space struggle with novel scaffolds, and the gap between leaderboard accuracy and actual wet-lab utility remains the field's central challenge."
+  },
+  {
+    "id": "multi-step-reasoning",
+    "area": "reasoning",
+    "name": "Multi-step Reasoning",
+    "description": "Multi-step reasoning — maintaining coherent inference chains across 5+ sequential steps — is the meta-capability that determines whether a model can solve complex real-world problems or only handle one-hop questions. Benchmarks like StrategyQA, MuSiQue, and BIG-Bench Hard isolate this ability, and the performance gap between single-step and multi-step tasks remains the widest failure mode of current LLMs. Techniques like chain-of-thought, tree-of-thought, and iterative refinement help, but error accumulation across steps means that 95% per-step accuracy yields only 60% accuracy over 10 steps — a fundamental scaling challenge."
+  },
+  {
+    "id": "music-generation",
+    "area": "audio",
+    "name": "Music Generation",
+    "description": "Generating music from text, audio, or other inputs."
+  },
+  {
+    "id": "named-entity-recognition",
+    "area": "nlp",
+    "name": "Named Entity Recognition",
+    "description": "Named entity recognition (NER) extracts structured mentions — people, organizations, locations, dates — from unstructured text, making it foundational to knowledge graphs, financial compliance, and clinical NLP. CoNLL-2003 English F1 scores have been above 93% since BERT, and current leaders like UniNER and GLiNER push past 95%, but these numbers mask the real difficulty: nested entities, emerging entity types, and cross-lingual transfer where performance drops 10-20 points. The shift from sequence labeling to generative NER (framing extraction as text generation) has opened the door for LLMs to compete, though latency-sensitive production systems still rely on encoder models like DeBERTa-v3 and SpanBERT."
+  },
+  {
+    "id": "natural-language-inference",
+    "area": "nlp",
+    "name": "Natural Language Inference",
+    "description": "Determining entailment relationships between sentences (SNLI, MNLI)."
+  },
+  {
+    "id": "node-classification",
+    "area": "graphs",
+    "name": "Node Classification",
+    "description": "Node classification — assigning labels to vertices in a graph using both node features and neighborhood structure — is the flagship task for Graph Neural Networks. GCN (Kipf & Welling, 2017) established the Cora/Citeseer/PubMed benchmark trinity, but these datasets are tiny by modern standards and results have saturated well above 85% accuracy. The field has moved toward large-scale heterogeneous graphs (ogbn-arxiv, ogbn-products from OGB) and the unsettled debate over whether simple MLPs with neighborhood features can match GNNs, as shown by SIGN and SGC ablations."
+  },
+  {
+    "id": "object-counting",
+    "area": "1",
+    "name": "Object counting",
+    "description": "Object counting in AI is a computer vision task that uses machine learning and image processing to identify and enumerate distinct objects within digital images and videos. It can differentiate between various object types, sizes, and shapes, even in crowded or dynamically changing scenes. The process typically involves object detection using deep learning models like convolutional neural networks (CNNs) to recognize and localize objects, followed by aggregation to provide a total count. This technology is applied in fields like manufacturing for quality control and production monitoring."
+  },
+  {
+    "id": "object-detection",
+    "area": "1",
+    "name": "Object Detection",
+    "description": "Object Detection is a computer vision task that involves identifying and localizing objects within an image. The goal is to detect instances or objects of a certain class (such as humans, buildings, or cars) in digital images and videos. Object detection models typically output a set of bounding boxes with corresponding predicted class names."
+  },
+  {
+    "id": "ocr",
+    "area": "1",
+    "name": "OCR",
+    "description": "OCR, or Optical Character Recognition, is the task of converting an image containing text into machine-readable, editable, and searchable digital text data. This involves converting scanned documents, photos, or image-only PDFs to text from their static visual format, enabling the document to be edited, searched, or used for data entry and other applications. Examples include digitizing receipts for your bank app, translating signs with Google Translate, or creating searchable archives from old documents."
+  },
+  {
+    "id": "ocr-capabilities",
+    "area": "computer-vision",
+    "name": "General OCR Capabilities",
+    "description": "Comprehensive benchmarks covering multiple aspects of OCR performance."
+  },
+  {
+    "id": "offline-rl",
+    "area": "reinforcement-learning",
+    "name": "Offline RL",
+    "description": "Offline RL — learning policies from fixed datasets without further environment interaction — matters because most real-world domains (healthcare, robotics, autonomous driving) can't afford online exploration. CQL (2020) and IQL (2022) established strong baselines on the D4RL benchmark, but the field was disrupted by Decision Transformer (2021), which recast RL as sequence modeling. The latest wave uses pretrained language models as policy backbones, blurring the line between offline RL and in-context learning, with benchmarks like CORL tracking reproducibility across dozens of algorithms."
+  },
+  {
+    "id": "omni-models",
+    "area": "3",
+    "name": "Omni models",
+    "description": "Omni models are AI models that take multiple modalities (language, vision, audio) as input and produce multiple modalities as output. Some examples of the first omni models include [Qwen2.5 Omni](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) and [BAGEL](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT)."
+  },
+  {
+    "id": "open-vocabulary-object-detection",
+    "area": "1",
+    "name": "Open-Vocabulary Object Detection",
+    "description": "Object detection with open vocabulary - detecting objects from arbitrary text descriptions without being limited to a fixed set of categories."
+  },
+  {
+    "id": "other",
+    "area": "8",
+    "name": "Other",
+    "description": "Other tasks that don't fit into specific categories"
+  },
+  {
+    "id": "polish-conversation-quality",
+    "area": "nlp",
+    "name": "Polish Conversation Quality",
+    "description": "Evaluating language models on multi-turn conversation quality in Polish across coding, extraction, humanities, math, reasoning, roleplay, STEM, and writing."
+  },
+  {
+    "id": "polish-cultural-competency",
+    "area": "nlp",
+    "name": "Polish Cultural Competency",
+    "description": "Evaluating language models on Polish linguistic and cultural knowledge across art & entertainment, culture & tradition, geography, grammar, history, and vocabulary."
+  },
+  {
+    "id": "polish-emotional-intelligence",
+    "area": "nlp",
+    "name": "Polish Emotional Intelligence",
+    "description": "Evaluating language models on emotional intelligence in Polish: understanding emotional states, predicting emotional responses, and nuanced sentiment analysis."
+  },
+  {
+    "id": "polish-llm-general",
+    "area": "nlp",
+    "name": "Polish LLM General",
+    "description": "General-purpose evaluation of language models on Polish language tasks: sentiment, reading comprehension, question answering, cyberbullying detection, and emotional intelligence."
+  },
+  {
+    "id": "polish-text-understanding",
+    "area": "nlp",
+    "name": "Polish Text Understanding",
+    "description": "Evaluating language models on understanding Polish text: sentiment, implicatures, phraseology, tricky questions, and hallucination resistance."
+  },
+  {
+    "id": "program-repair",
+    "area": "computer-code",
+    "name": "Program Repair",
+    "description": "Automatically fixing bugs in code."
+  },
+  {
+    "id": "question-answering",
+    "area": "nlp",
+    "name": "Question Answering",
+    "description": "Question answering now spans extractive reading comprehension, open-domain retrieval QA, multi-hop reasoning, factuality, long-context QA, and web-browsing agents. SQuAD is historical; current QA evaluation needs Natural Questions, TriviaQA, HotpotQA, MuSiQue, DROP, KILT, SimpleQA, FRAMES, and BrowseComp."
+  },
+  {
+    "id": "re-bench",
+    "area": "agentic",
+    "name": "RE-Bench",
+    "description": "RE-Bench (Research Engineering Benchmark) from METR evaluates AI agents on 7 open-ended ML research engineering tasks requiring genuine experimentation — training models, analyzing data, and iterating on approaches over extended time horizons up to 8 hours. Unlike pass/fail coding benchmarks, RE-Bench uses continuous scoring that measures quality of results, capturing the difference between a mediocre and excellent solution. It revealed a critical finding: current frontier models (as of late 2024) plateau after ~2 hours of autonomous work while human experts continue improving, exposing the \"long-horizon reliability\" gap in agentic AI."
+  },
+  {
+    "id": "react-native-code-generation",
+    "area": "mobile-development",
+    "name": "React Native Code Generation",
+    "description": "Evaluating AI models on generating correct, production-quality React Native implementations. Covers animation, navigation, state management, lists, and platform APIs using real-world libraries (Reanimated, React Navigation, Zustand, FlashList)."
+  },
+  {
+    "id": "reading-comprehension",
+    "area": "nlp",
+    "name": "Reading Comprehension",
+    "description": "Understanding and answering questions about passages."
+  },
+  {
+    "id": "reasoning",
+    "area": "3",
+    "name": "Reasoning",
+    "description": "AI reasoning is the process by which artificial intelligence systems logically derive conclusions and make informed decisions from data, rules, and prior knowledge, enabling them to move beyond simple pattern recognition to solve problems and simulate intelligent behavior. It involves systems that can \"think\" by connecting information, applying rules, and performing step-by-step analyses, often using methods like deductive and inductive logic to achieve greater accuracy and adapt to complex, uncertain situations."
+  },
+  {
+    "id": "reinforcement-learning",
+    "area": "3",
+    "name": "Reinforcement Learning",
+    "description": "Reinforcement learning (RL) is a machine learning technique where an agent learns to make optimal decisions in an environment through trial and error to maximize cumulative rewards. An agent interacts with an environment, taking actions, and receiving rewards or penalties based on those actions. Unlike other ML methods, RL doesn't have an \"answer key\"; instead, it learns a strategy, called a policy, to choose actions that lead to the best long-term outcomes."
+  },
+  {
+    "id": "relation-extraction",
+    "area": "knowledge-base",
+    "name": "Relation Extraction",
+    "description": "Extracting relationships between entities from text."
+  },
+  {
+    "id": "retrieval",
+    "area": "3",
+    "name": "Retrieval",
+    "description": "Retrieval is the process of fetching relevant information from a vast knowledge base or database to answer a user's query or enhance a model's response, most notably seen in Retrieval-Augmented Generation (RAG) systems. RAG combines traditional search capabilities with large language models (LLMs) to ensure accuracy, provide up-to-date information, and ground AI responses in factual, external data rather than relying solely on a model's internal, potentially outdated knowledge."
+  },
+  {
+    "id": "robot-manipulation",
+    "area": "robots",
+    "name": "Robot Manipulation",
+    "description": "Robot manipulation — grasping, placing, and using tools — is where sim-to-real and foundation models meet physical dexterity. DexNet (2017) pioneered data-driven grasp planning, but the field accelerated when contact-rich manipulation was tackled with RL in simulation (DexterousHands, 2023) and then transferred to real hardware. Current state-of-the-art combines diffusion policies (Chi et al., 2023) with large pretrained vision encoders to achieve robust 6-DOF manipulation from a handful of demonstrations, though deformable objects and multi-step assembly remain unsolved."
+  },
+  {
+    "id": "robot-navigation",
+    "area": "robots",
+    "name": "Robot Navigation",
+    "description": "Autonomous navigation — moving through unstructured environments while avoiding obstacles — spans indoor service robots to outdoor last-mile delivery. Classical SLAM (simultaneous localization and mapping) methods like ORB-SLAM still dominate mapping, but end-to-end learning approaches using habitat simulators (Habitat 2.0, iGibson) show promise for semantic navigation (\"go to the kitchen\"). The Habitat Challenge results reveal that modular pipelines (map → plan → act) consistently beat monolithic learned policies, suggesting that full end-to-end navigation is still years away from displacing classical stacks in production."
+  },
+  {
+    "id": "robotics",
+    "area": "8",
+    "name": "Robotics",
+    "description": "Robotics is an interdisciplinary field of study involving computer science, engineering, and technology to design, construct, operate, and utilize machines known as robots. These programmable machines are built to replicate, substitute, or assist in human actions, performing a vast array of tasks in industries from manufacturing and healthcare to exploration and entertainment."
+  },
+  {
+    "id": "scene-text-detection",
+    "area": "computer-vision",
+    "name": "Scene Text Detection",
+    "description": "Detecting text regions in natural scene images"
+  },
+  {
+    "id": "scene-text-recognition",
+    "area": "computer-vision",
+    "name": "Scene Text Recognition",
+    "description": "Recognizing text in natural scene images"
+  },
+  {
+    "id": "self-supervised-learning",
+    "area": "methodology",
+    "name": "Self-Supervised Learning",
+    "description": "Learning representations without labeled data."
+  },
+  {
+    "id": "semantic-segmentation",
+    "area": "computer-vision",
+    "name": "Semantic Segmentation",
+    "description": "Semantic segmentation assigns a class label to every pixel — the dense prediction problem that underpins autonomous driving, medical imaging, and satellite analysis. FCN (2015) showed you could repurpose classifiers for pixel labeling, DeepLab introduced atrous convolutions and CRFs, and SegFormer (2021) proved transformers dominate here too. State-of-the-art on Cityscapes exceeds 85 mIoU, but ADE20K with its 150 classes remains brutally challenging. The frontier has moved toward universal segmentation models like Mask2Former that handle semantic, instance, and panoptic segmentation in a single architecture."
+  },
+  {
+    "id": "semantic-similarity",
+    "area": "nlp",
+    "name": "Semantic Textual Similarity",
+    "description": "Semantic similarity measures how close two pieces of text are in meaning — the foundation of duplicate detection, paraphrase mining, and retrieval. STS Benchmark scores climbed from 70 (GloVe averages) to 86+ with Sentence-BERT, and now exceed 92 with models like GTE-Qwen2 and E5-Mistral that leverage billion-parameter backbones. The real shift was from symmetric similarity (are these two sentences paraphrases?) to asymmetric retrieval (does this passage answer this query?), driven by the RAG revolution that made embedding quality a production-critical metric. Cross-lingual semantic similarity remains a hard frontier — models trained primarily on English still lose 5-10 points when comparing sentences across language families, despite multilingual pretraining."
+  },
+  {
+    "id": "sim-to-real",
+    "area": "robots",
+    "name": "Sim-to-Real Transfer",
+    "description": "Sim-to-real transfer — training policies in simulation and deploying on physical hardware — is the bridge between unlimited virtual data and messy reality. Domain randomization (Tobin et al., 2017) was the first scalable approach, and OpenAI's Rubik's cube hand (2019) showed it could work for dexterous manipulation. The modern toolkit combines photorealistic rendering (Isaac Sim, MuJoCo MJX on GPU), system identification, and real-world fine-tuning, but the gap persists for contact-rich tasks where simulation physics diverge from reality. Narrowing this gap is existential for robotics — it determines whether lab results actually work in factories and homes."
+  },
+  {
+    "id": "sound-event-detection",
+    "area": "audio",
+    "name": "Sound Event Detection",
+    "description": "Detecting and localizing sound events in audio."
+  },
+  {
+    "id": "speaker-verification",
+    "area": "speech",
+    "name": "Speaker Verification",
+    "description": "Verifying speaker identity from voice samples."
+  },
+  {
+    "id": "speech-recognition",
+    "area": "speech",
+    "name": "Speech Recognition",
+    "description": "Automatic speech recognition went from a specialized pipeline (acoustic model + language model + decoder) to a single end-to-end model with OpenAI's Whisper (2022), which was trained on 680K hours of web audio and became the de facto open-source standard overnight. Whisper large-v3 hits under 5% word error rate on LibriSpeech clean, and commercial APIs from Google, AWS, and Deepgram compete fiercely on noisy, accented, and multilingual speech where error rates are 2-3x higher. The real frontier is real-time streaming ASR at conversational latency (<500ms), code-switching between languages mid-sentence, and robust recognition of domain-specific terminology (medical, legal, technical). Assembly AI's Universal-2 and Deepgram's Nova-3 currently lead production benchmarks, but the gap with fine-tuned Whisper variants is narrow."
+  },
+  {
+    "id": "speech-translation",
+    "area": "speech",
+    "name": "Speech Translation",
+    "description": "Translating spoken audio directly to another language."
+  },
+  {
+    "id": "steel-defect",
+    "area": "industrial-inspection",
+    "name": "Steel Defect Detection",
+    "description": "Detecting defects in steel production: rolled-in scale, patches, pitting."
+  },
+  {
+    "id": "surface-defect",
+    "area": "industrial-inspection",
+    "name": "Surface Defect Detection",
+    "description": "Detecting scratches, dents, and surface imperfections on materials."
+  },
+  {
+    "id": "swe-bench",
+    "area": "agentic",
+    "name": "SWE-bench",
+    "description": "SWE-bench — resolving real GitHub issues from popular Python repositories — became the defining benchmark for AI software engineering after its 2023 release by Princeton. The verified subset (500 curated problems) went from ~4% resolution rate with raw GPT-4 to over 50% with agentic scaffolds like SWE-Agent and Amazon Q Developer by mid-2025. What makes it uniquely challenging is the need to navigate large codebases, write tests, and produce patches that pass CI — skills that require genuine multi-file reasoning, not just code generation."
+  },
+  {
+    "id": "table-question-answering",
+    "area": "nlp",
+    "name": "Table Question Answering",
+    "description": "Table question answering bridges natural language and structured data — asking \"what was Q3 revenue?\" over a spreadsheet and getting the right cell or computed answer. Google's TAPAS (2020) pioneered joint table-text pre-training, and TAPEX trained on synthetic SQL execution traces to teach models tabular reasoning. The field shifted dramatically when GPT-4 and Claude demonstrated they could reason over tables in-context without any table-specific fine-tuning, often matching or beating specialized models on WikiTableQuestions and SQA. The hard frontier is multi-step numerical reasoning over large tables with hundreds of rows — exactly the kind of task where tool-augmented LLMs that generate and execute code are pulling ahead of pure neural approaches."
+  },
+  {
+    "id": "table-recognition",
+    "area": "computer-vision",
+    "name": "Table Recognition",
+    "description": "Detecting and parsing tables in documents"
+  },
+  {
+    "id": "tabular-classification",
+    "area": "time-series",
+    "name": "Tabular Classification",
+    "description": "Tabular classification — predicting discrete labels from structured rows and columns — remains the one domain where gradient-boosted trees (XGBoost, LightGBM, CatBoost) stubbornly rival deep learning. Despite years of effort, neural approaches like TabNet (2019) and FT-Transformer (2021) only match tree methods on certain splits, and a 2022 NeurIPS study by Grinsztajn et al. confirmed that trees still dominate on medium-sized datasets. The real frontier is AutoML systems (AutoGluon, FLAML) that ensemble both paradigms, and the emerging question of whether foundation models pretrained on millions of tables can finally tip the balance."
+  },
+  {
+    "id": "tabular-regression",
+    "area": "time-series",
+    "name": "Tabular Regression",
+    "description": "Tabular regression — predicting continuous values from structured data — powers everything from house-price estimation to demand forecasting and shares the same tree-vs-neural tension as classification. XGBoost and LightGBM remain brutally effective defaults, but recent work on differentiable trees and table-aware transformers (TabPFN, 2022) showed that meta-learned priors can beat tuned GBDTs on small datasets in seconds. The challenge is distribution shift: real-world regression targets drift over time, and most benchmarks (UCI, Kaggle) are static snapshots that hide this problem entirely."
+  },
+  {
+    "id": "text-classification",
+    "area": "2",
+    "name": "Text classification",
+    "description": "Text classification is a machine learning process of automatically assigning predefined categories or labels to text based on its content, often using natural language processing (NLP). It involves analyzing text to understand its meaning and then applying the most appropriate label, with common applications including sentiment analysis (e.g., positive/negative reviews), spam detection, and topic categorization (e.g., organizing news articles)."
+  },
+  {
+    "id": "text-ranking",
+    "area": "nlp",
+    "name": "Text Ranking",
+    "description": "Text ranking is the invisible backbone of every search engine and RAG pipeline. The field was transformed by ColBERT (2020) introducing late interaction, then by instruction-tuned embedding models like E5-Mistral and GTE-Qwen that turned general LLMs into retrieval engines. MS MARCO and BEIR remain the standard battlegrounds, but the real test is zero-shot transfer — can a model trained on web search generalize to legal documents, scientific papers, and code? The gap between supervised and zero-shot performance has shrunk from 15+ points to under 3 in two years."
+  },
+  {
+    "id": "text-summarization",
+    "area": "nlp",
+    "name": "Text Summarization",
+    "description": "Text summarization compresses documents while preserving key information — a task that became dramatically more capable with LLMs but also harder to evaluate. PEGASUS (2020) and BART set the encoder-decoder baseline, but GPT-4 and Claude produce summaries that human evaluators often prefer over reference summaries, breaking ROUGE as a meaningful metric. CNN/DailyMail and XSum remain standard benchmarks, but the field is moving toward long-document summarization (books, legal filings, earnings calls) where 100K+ token context windows are finally making single-pass summarization feasible. The core unsolved problem is faithfulness — even frontier models hallucinate facts in roughly 5-15% of summaries, making factual consistency the critical metric that separates production-ready from demo-ready."
+  },
+  {
+    "id": "text-to-3d",
+    "area": "computer-vision",
+    "name": "Text-to-3D",
+    "description": "Text-to-3D generates 3D assets — meshes, NeRFs, or Gaussian splats — from text descriptions alone, a capability that barely existed before DreamFusion (2022) showed score distillation sampling could lift 2D diffusion priors into 3D. The field moves at breakneck speed: Magic3D added coarse-to-fine generation, Instant3D achieved single-shot inference, and Meshy and Tripo brought commercial quality. Multi-view consistency remains the core challenge — the \"Janus problem\" where different viewpoints produce contradictory details. The promise of democratizing 3D content creation for games, VR, and e-commerce is driving massive investment."
+  },
+  {
+    "id": "text-to-audio",
+    "area": "audio",
+    "name": "Text-to-Audio",
+    "description": "Text-to-audio generates sound effects, music, and ambient audio from natural language descriptions — a field that barely existed before AudioLDM (2023) adapted latent diffusion from images to spectrograms. Meta's AudioCraft, Stability's Stable Audio, and Google's MusicLM/MusicFX pushed quality dramatically, enabling production-ready sound design from prompts like \"thunderstorm with distant church bells.\" AudioCaps and MusicCaps are the primary benchmarks, evaluated via Fréchet Audio Distance (FAD) and text-audio alignment scores, but human evaluation still dominates because automated metrics poorly capture subjective quality. The unsolved challenges are temporal coherence in long-form generation (>30 seconds), precise control over timing and structure, and music that maintains harmonic consistency across full songs."
+  },
+  {
+    "id": "text-to-image",
+    "area": "multimodal",
+    "name": "Text-to-Image Generation",
+    "description": "Text-to-image generation went from \"interesting research\" to cultural phenomenon in 18 months. DALL-E 2 (2022) proved diffusion models could produce photorealistic images from text, Stable Diffusion democratized it as open source, and Midjourney v5/v6 set the aesthetic bar that even non-technical users now expect. DALL-E 3 (2023) solved the prompt-following problem by training on highly descriptive captions, Flux pushed open-source quality to near-commercial levels, and Ideogram cracked reliable text rendering in images. The remaining frontiers are compositional generation (multiple objects with specified spatial relationships), consistent character identity across images, and the still-unsolved challenge of reliable hand and finger anatomy."
+  },
+  {
+    "id": "text-to-speech",
+    "area": "6",
+    "name": "Text-to-speech",
+    "description": "Text-to-speech (TTS) is technology that converts written text into natural-sounding audio, also known as \"read aloud\" technology or speech synthesis. It works by analyzing text to understand words, punctuation, and sentence structure, then generating phonetic representations of those words before synthesizing them into a human-like voice output. TTS is a crucial form of assistive technology and a key component of natural language processing, making digital content accessible and improving user interaction in numerous applications."
+  },
+  {
+    "id": "text-to-video",
+    "area": "computer-vision",
+    "name": "Text-to-Video",
+    "description": "Text-to-video generation is the most ambitious frontier in generative AI — synthesizing temporally coherent, physically plausible video from text prompts alone. The field exploded in 2024 with Sora demonstrating cinematic-quality generation, followed by open models like CogVideoX and Mochi pushing accessibility. The core technical challenge is maintaining consistency across frames: characters shouldn't morph, physics should hold, and camera motion should feel intentional. Quality is improving at a staggering pace, but generation still takes minutes per clip and artifacts remain visible under scrutiny — the gap between demos and reliable production tools is real."
+  },
+  {
+    "id": "time-horizon",
+    "area": "agentic",
+    "name": "Time Horizon",
+    "description": "Time horizon — how long an AI agent can work autonomously before requiring human correction — is arguably the single most important meta-metric for agentic AI. METR's evaluations suggest current frontier agents degrade significantly after 30-60 minutes of autonomous operation, while human software engineers can sustain productive work for hours. The metric matters because economic value scales exponentially with reliable autonomy duration: an agent that works reliably for 8 hours is not 16x more valuable than one that works for 30 minutes — it's qualitatively different, enabling entirely new categories of delegatable work."
+  },
+  {
+    "id": "time-series-classification",
+    "area": "7",
+    "name": "Time-series classification",
+    "description": "Time series classification is a supervised machine learning technique used to assign a predefined category or label to an entire sequence of time-ordered data points, rather than predicting a future value. It involves training a model on labeled examples of time series data and then using that model to classify new, unseen time series sequences into their correct classes, which is useful in applications like medical diagnosis, human activity recognition, and sensor data analysis."
+  },
+  {
+    "id": "time-series-forecasting",
+    "area": "7",
+    "name": "Time-series forecasting",
+    "description": "Time series forecasting uses historical, time-stamped data to create models that predict future events by identifying patterns in the data. This method analyzes trends, seasonality, and other fluctuations over time to anticipate outcomes, improve decision-making, and reduce risks in fields like business, finance, weather prediction, and resource allocation."
+  },
+  {
+    "id": "tool-use",
+    "area": "agentic",
+    "name": "Tool Use",
+    "description": "Benchmarks measuring AI agents ability to use tools and APIs to complete real-world tasks across domains like retail and airline customer service."
+  },
+  {
+    "id": "transfer-learning",
+    "area": "methodology",
+    "name": "Transfer Learning",
+    "description": "Transferring knowledge between tasks and domains."
+  },
+  {
+    "id": "unconditional-image-generation",
+    "area": "computer-vision",
+    "name": "Unconditional Image Generation",
+    "description": "Unconditional image generation — producing realistic images from pure noise — is the purest test of a generative model's learned distribution. GANs dominated for years (ProGAN, StyleGAN, StyleGAN3 pushed FID below 2 on FFHQ), but diffusion models dethroned them in both quality and diversity starting with DDPM (2020). The FID metric itself is now questioned as models produce images indistinguishable from real photos. Historically the proving ground for new generative architectures, though the field's energy has largely migrated to conditional generation (text-to-image) where practical applications live."
+  },
+  {
+    "id": "video-classification",
+    "area": "1",
+    "name": "Video classification",
+    "description": "The task of classifying videos into predefined categories or classes. Video classification involves analyzing temporal sequences of frames to understand the content and assign appropriate labels to entire video clips."
+  },
+  {
+    "id": "video-generation",
+    "area": "1",
+    "name": "Video generation",
+    "description": "AI video generation uses artificial intelligence to automatically create or edit videos from inputs like text, images, or existing footage, transforming them into new content with minimal human intervention. These systems leverage machine learning and computer vision to understand prompts and generate synchronized visuals, audio, and animations, making video creation more efficient, accessible, and cost-effective for various applications like marketing, education, and entertainment."
+  },
+  {
+    "id": "video-language-models",
+    "area": "3",
+    "name": "Video-Language Models",
+    "description": "Video Language Models (Video LLMs) are advanced AI systems that combine large language models with video processing capabilities to understand and generate descriptive content from videos. They bridge the gap between visual and textual information by using special encoders to convert video data into a format that a standard text-based large language model (LLM) can process, enabling tasks like video analysis, content generation, and question answering about video content."
+  },
+  {
+    "id": "video-segmentation",
+    "area": "1",
+    "name": "Video segmentation",
+    "description": "Video segmentation is the task of partitioning video frames into multiple segments or objects. Unlike image segmentation which works on static images, video segmentation tracks objects across frames in a video sequence."
+  },
+  {
+    "id": "video-to-video",
+    "area": "computer-vision",
+    "name": "Video-to-Video",
+    "description": "Video-to-video translation transforms existing footage — applying style transfer, temporal super-resolution, relighting, or motion retargeting while preserving temporal coherence across frames. The naive approach of processing frames independently produces unwatchable flicker, so the core technical challenge is enforcing cross-frame consistency. Diffusion-based approaches like Rerender-A-Video and TokenFlow (2023) showed that propagating attention features between frames solves this elegantly. The practical frontier is real-time processing for live video — current methods are offline and slow, but the creative potential for film post-production, video editing, and content repurposing is enormous."
+  },
+  {
+    "id": "video-understanding",
+    "area": "multimodal",
+    "name": "Video Understanding",
+    "description": "Video understanding asks models to reason over temporal sequences — answering questions, generating summaries, or detecting events across minutes or hours of footage. Early approaches like VideoBERT and TimeSformer processed short clips, but Gemini 1.5 Pro's million-token context (2024) enabled reasoning over hour-long videos natively, and GPT-4o brought real-time video comprehension. The core bottleneck remains temporal reasoning at scale: models can describe individual frames well but struggle to track causal chains, count repetitions, or understand temporal ordering across long sequences. Video-MME and EgoSchema are pushing evaluation beyond simple recognition toward genuine temporal understanding."
+  },
+  {
+    "id": "vision-language-models",
+    "area": "3",
+    "name": "Vision-Language Models",
+    "description": "Vision-Language Models (VLMs) are advanced AI systems that unify computer vision and natural language processing, enabling them to understand and reason about both visual and textual data simultaneously. By processing images and text together, VLMs can perform tasks such as image captioning, visual question answering, and generating images from text. They are trained on large datasets of image-text pairs, allowing them to learn the relationships between visual features and language, leading to comprehensive, multimodal understanding."
+  },
+  {
+    "id": "visual-question-answering",
+    "area": "multimodal",
+    "name": "Visual Question Answering",
+    "description": "Visual question answering (VQA) is the original multimodal reasoning task — given an image and a natural language question, produce the correct answer. VQAv2 (2017) defined the field, but modern benchmarks like GQA, OK-VQA, and TextVQA have pushed toward compositional reasoning, external knowledge, and OCR-dependent understanding. The task was largely \"solved\" in its classic form once multimodal LLMs arrived, with GPT-4V and Gemini saturating standard benchmarks, but adversarial and compositional variants still expose systematic failures in spatial reasoning and counting. VQA's legacy is establishing that vision-language models need more than pattern matching — they need genuine visual understanding."
+  },
+  {
+    "id": "voice-activity-detection",
+    "area": "audio",
+    "name": "Voice Activity Detection",
+    "description": "Voice activity detection (VAD) answers the deceptively simple question \"is someone speaking right now?\" — and getting it wrong ruins everything downstream in speech pipelines. Silero VAD became the open-source standard by shipping a model under 2MB that runs in real-time on CPU with >95% accuracy, while pyannote.audio's segmentation model pushed the state of the art for overlapping speech detection. Production VAD must handle extreme conditions: background music, crowd noise, whispered speech, and non-speech vocalizations (coughs, laughs) that fool simpler models. Modern systems increasingly combine VAD with speaker diarization (\"who spoke when\") in unified models, and the rise of real-time conversational AI has made sub-100ms latency VAD a critical infrastructure component."
+  },
+  {
+    "id": "voice-cloning",
+    "area": "6",
+    "name": "Voice cloning",
+    "description": "Voice cloning is a type of audio deepfake technology that uses machine learning to create a digital replica of a specific person's voice, synthesizing spoken audio that mimics their vocal characteristics like pitch and tone. While it has positive uses, such as generating audiobooks or helping people who have lost their voice, it is also used for malicious purposes, including creating convincing scams where fraudsters impersonate individuals."
+  },
+  {
+    "id": "web-agents",
+    "area": "agentic",
+    "name": "Web & Desktop Agents",
+    "description": "Web and desktop agents — AI systems that operate browsers and GUIs to complete real tasks — are benchmarked by WebArena, VisualWebArena, Mind2Web, and OSWorld. Current agents (GPT-4V + Playwright, Claude Computer Use) achieve 15-35% success on realistic web tasks, far below human performance. The core difficulty is grounding: mapping high-level instructions (\"book a flight under $300\") to pixel-level or DOM-level actions across unpredictable, dynamic interfaces. This is where multimodal understanding meets sequential decision-making, and progress here directly predicts when AI assistants can truly act on your behalf."
+  },
+  {
+    "id": "weld-inspection",
+    "area": "industrial-inspection",
+    "name": "Weld Inspection",
+    "description": "Detecting weld defects: porosity, cracks, lack of fusion, slag inclusion."
+  },
+  {
+    "id": "world-models",
+    "area": "3",
+    "name": "World Models",
+    "description": "World models are internal, learned representations in AI that function like a \"computational snow globe,\" allowing an agent to understand its environment, predict future states, and simulate the outcomes of actions before acting in the real world. They are essential for building sophisticated AI systems that can reason, make decisions, and interact with complex environments by simulating dynamics like physics, motion, and spatial relationships."
+  },
+  {
+    "id": "zero-shot-classification",
+    "area": "nlp",
+    "name": "Zero-Shot Classification",
+    "description": "Zero-shot classification asks a model to categorize text into labels it has never been explicitly trained on — the ultimate test of language understanding and generalization. The breakthrough was the natural language inference (NLI) trick: reframe classification as \"does this text entail the label?\" using models fine-tuned on MNLI, pioneered by Yin et al. (2019) and popularized by BART-large-MNLI. Today, instruction-tuned LLMs have largely subsumed this approach — GPT-4, Claude, and Llama 3 can classify into arbitrary taxonomies via prompting with near-supervised accuracy. The remaining challenge is consistency and calibration: LLMs are powerful but their predictions can be brittle to prompt phrasing, making them unreliable for high-stakes automated pipelines without careful engineering."
+  },
+  {
+    "id": "zero-shot-image-classification",
+    "area": "computer-vision",
+    "name": "Zero-Shot Image Classification",
+    "description": "Zero-shot image classification uses vision-language models to categorize images into arbitrary classes never seen during training — you describe categories in text, and the model matches. CLIP (2021) proved this was viable at scale by training on 400M image-text pairs, achieving competitive accuracy on ImageNet without ever seeing a labeled example. SigLIP, EVA-CLIP, and MetaCLIP have since pushed zero-shot ImageNet accuracy above 83%, closing the gap with supervised models. The paradigm shift this represents is profound: instead of collecting labeled datasets for every new domain, you just describe what you're looking for."
+  },
+  {
+    "id": "zero-shot-object-detection",
+    "area": "computer-vision",
+    "name": "Zero-Shot Object Detection",
+    "description": "Zero-shot object detection finds and localizes objects described by free-form text, without any task-specific fine-tuning — the open-vocabulary dream of detection. Grounding DINO (2023) married DINO's detection architecture with grounded pre-training to achieve state-of-the-art open-set detection, while OWL-ViT and YOLO-World showed different paths to the same goal. The technical challenge is grounding language precisely enough to distinguish similar objects (\"the red car\" vs \"the blue car\" in the same scene). This is rapidly replacing traditional closed-set detectors in production because it eliminates the most painful step: collecting and annotating domain-specific training data."
+  }
+]
