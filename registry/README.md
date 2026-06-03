@@ -67,7 +67,16 @@ The export is produced by `scripts/export-registry.mjs` in the (private) site co
 node --env-file=.env.local scripts/export-registry.mjs ./registry
 ```
 
-## Licence
+## Licence — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-The registry data is published as a public good. Reuse it, fork it, build on it — a link back to
-[codesota.com](https://www.codesota.com) is appreciated but not required.
+The registry data is a public good: reuse it, fork it, build on it, even commercially. The one
+condition is **attribution with a link back to [codesota.com](https://www.codesota.com)**.
+
+That link is not vanity — it's what keeps the registry growing. A fork that credits the source
+sends its readers back to the live record, those readers submit corrections and new results, and
+the registry everyone builds on gets better. Cite it as:
+
+> Data from the [CodeSOTA registry](https://www.codesota.com), CC BY 4.0.
+
+When you reuse a specific result, the row's own `source` / `sourceUrl` points at the primary
+literature — cite that too; it's the claim's real provenance.

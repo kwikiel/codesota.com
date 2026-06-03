@@ -1,6 +1,8 @@
 {
   "schemaVersion": "1.0",
   "source": "https://www.codesota.com/api/tasks",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from the CodeSOTA registry (https://www.codesota.com), CC BY 4.0.",
   "note": "Snapshot of the CodeSOTA registry. The Neon database is the source of truth; this is a deterministic, public mirror. Hidden/commercial rows are excluded.",
   "counts": {
     "areas": 24,
