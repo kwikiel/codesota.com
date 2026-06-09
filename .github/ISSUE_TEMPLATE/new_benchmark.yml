@@ -1,0 +1,56 @@
+name: New benchmark / dataset
+description: Propose a benchmark dataset or a new leaderboard for an existing task
+title: "[Benchmark] "
+labels: ["new-benchmark"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Benchmark / dataset name
+      placeholder: e.g. MVTec AD 2, TabArena, ImmigrationQA
+    validations:
+      required: true
+  - type: input
+    id: task
+    attributes:
+      label: Task it evaluates
+      description: An existing CodeSOTA task if possible; if the task is also missing, open a "New task" issue first.
+      placeholder: e.g. Image Anomaly Detection
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Primary links
+      description: Paper, dataset download / HF dataset page, official leaderboard if one exists.
+      placeholder: |
+        - Paper: https://arxiv.org/abs/...
+        - Dataset: https://huggingface.co/datasets/...
+        - Leaderboard: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Metrics
+      description: Which metrics are reported, which one is primary, and whether higher or lower is better.
+      placeholder: "Primary: AUROC (higher better). Also: AUPRC, F1."
+    validations:
+      required: true
+  - type: textarea
+    id: eval-protocol
+    attributes:
+      label: Evaluation protocol
+      description: Test split, judge setup (for LLM-judged benchmarks), and anything that makes results non-comparable if ignored (TTA, dataset versions, extra training data).
+  - type: textarea
+    id: seed-results
+    attributes:
+      label: Seed results (optional)
+      description: "A few rows to start the table: model, metric value, source URL. Or attach/link a JSON file following registry/benchmark_results.json."
+  - type: checkboxes
+    id: relationship
+    attributes:
+      label: Your relationship to this benchmark
+      options:
+        - label: I'm an author of the benchmark
+        - label: Community contributor (not an author)

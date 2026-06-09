@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Submit a paper (website, no account needed)
+    url: https://www.codesota.com/submit
+    about: Fastest way to get a paper in front of the editors — paste an arXiv link or write-up.
+  - name: Submit a score (website)
+    url: https://www.codesota.com/contribute/score
+    about: Paste text containing model names and scores for an existing benchmark; it lands in the review queue.
+  - name: Registry data & schema
+    url: https://github.com/kwikiel/codesota.com/tree/master/registry
+    about: The full registry as plain JSON — corrections and additions also welcome as pull requests.

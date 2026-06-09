@@ -1,0 +1,42 @@
+name: Correction
+description: Report a wrong number, dead link, mislabelled model, stale result, or retracted paper
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is the error?
+      description: Link the codesota.com page, or name the registry file and row id.
+      placeholder: https://www.codesota.com/... or registry/benchmark_results.json id=...
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong
+      description: The current value/state as shown on the site.
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should be
+      description: The corrected value, link, or label — or "remove" with the reason (e.g. retraction).
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Primary source supporting the correction — paper section/table, official errata, retraction notice, archived page.
+      placeholder: "https://arxiv.org/abs/... v3, Table 4 (the site shows the v1 number)"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Prefer to fix it yourself? Edit the JSON in
+        [`registry/`](https://github.com/kwikiel/codesota.com/tree/master/registry) and open a
+        pull request — one logical change per PR, source URL included. Accepted corrections are
+        credited on the page.

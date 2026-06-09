@@ -25,38 +25,24 @@ This repository hosts the public **registry** (above) and collects feedback, bug
 requests, and benchmark submissions from the community. The main site codebase is maintained
 separately.
 
-## How to Submit Issues
+## How to Contribute
 
-We welcome contributions from the community! Please use the appropriate issue template when submitting:
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full workflow. The short version — pick the
+channel that matches what you want to do:
 
-### Bug Reports
+| Contribution | Channel |
+| --- | --- |
+| Submit a paper | [codesota.com/submit](https://www.codesota.com/submit) (no account needed) |
+| Submit a result to a leaderboard | [codesota.com/contribute/score](https://www.codesota.com/contribute/score) or the [Submit a result](../../issues/new?template=submit_result.yml) form |
+| Propose a new task | [New task](../../issues/new?template=new_task.yml) form |
+| Propose a new benchmark / dataset / leaderboard | [New benchmark](../../issues/new?template=new_benchmark.yml) form |
+| Fix a wrong number, link, or label | [Correction](../../issues/new?template=correction.yml) form, or a PR against [`registry/`](registry/) |
+| Bulk data additions | Pull request against [`registry/`](registry/) (schema in [`registry/README.md`](registry/README.md)) |
+| Report a site bug | [Bug report](../../issues/new?template=bug_report.md) |
+| Suggest a feature | [Feature request](../../issues/new?template=feature_request.md) |
 
-Found a bug or something not working correctly? Please submit a bug report with detailed information about:
-- What happened
-- What you expected to happen
-- Steps to reproduce the issue
-- Browser and device information
-
-[Submit a Bug Report](../../issues/new?template=bug_report.md)
-
-### Feature Requests
-
-Have an idea for improving CodeSOTA? We'd love to hear it! Submit a feature request with:
-- A clear description of the proposed feature
-- The problem it solves or value it adds
-- Any examples or mockups (optional)
-
-[Submit a Feature Request](../../issues/new?template=feature_request.md)
-
-### OCR Benchmark Submissions
-
-Have new OCR (Optical Character Recognition) benchmark results to share? Submit them using our benchmark submission template:
-- Benchmark name and dataset
-- Model/method used
-- Performance metrics
-- Citation/reference information
-
-[Submit OCR Benchmark Results](../../issues/new?template=benchmark_submission.md)
+Two rules apply everywhere: every result needs a citable primary source, and you verify what you
+submit yourself — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Community Guidelines
 

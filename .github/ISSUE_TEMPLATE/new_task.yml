@@ -1,0 +1,53 @@
+name: New task
+description: Propose a task we don't cover yet (e.g. Speech Enhancement, Tabular ML, Image Compression)
+title: "[Task] "
+labels: ["new-task"]
+body:
+  - type: input
+    id: task-name
+    attributes:
+      label: Task name
+      placeholder: e.g. Speech Enhancement
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Research area
+      description: Which top-level area does it belong under? (Computer Vision, NLP, Audio, …)
+      placeholder: e.g. Audio
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: What is the task?
+      description: One or two sentences — input, output, and what "better" means.
+    validations:
+      required: true
+  - type: textarea
+    id: benchmarks
+    attributes:
+      label: Key benchmarks and datasets
+      description: The 2–5 datasets people actually evaluate on, with links. This is what makes the task page useful on day one.
+      placeholder: |
+        - VoiceBank+DEMAND — https://...
+        - DNS Challenge — https://...
+    validations:
+      required: true
+  - type: textarea
+    id: representative-work
+    attributes:
+      label: Representative papers / models
+      description: A few strong or widely-cited entries (papers, model cards, leaderboards) to seed the table.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters / who is asking
+      description: Community size, recent surveys, active challenges — anything that signals demand.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Involvement
+      options:
+        - label: I'm willing to help curate this task's results after it's added

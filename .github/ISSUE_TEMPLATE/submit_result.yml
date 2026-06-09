@@ -1,0 +1,66 @@
+name: Submit a result
+description: Add a result (yours or someone else's) to an existing leaderboard
+title: "[Result] "
+labels: ["result-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Faster path: paste the same information at
+        [codesota.com/contribute/score](https://www.codesota.com/contribute/score) — it's parsed
+        automatically into the review queue. Use this form if you prefer GitHub or are submitting
+        several results at once.
+  - type: input
+    id: benchmark
+    attributes:
+      label: Benchmark / dataset
+      description: As named on codesota.com (link the page if you have it).
+      placeholder: e.g. COCO test-dev — https://www.codesota.com/...
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model / method name
+      placeholder: e.g. Co-DETR (ViT-L)
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results
+      description: One line per metric. Include every metric you want listed.
+      placeholder: |
+        box mAP: 66.0
+        mAP@50: 83.1
+        mAP@75: 72.4
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Primary source
+      description: Where these exact numbers come from — paper (with table/section), official repo, vendor blog, or independent eval. Required; submissions without a citable source are not accepted.
+      placeholder: "https://arxiv.org/abs/... (Table 2)"
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code / weights
+      placeholder: |
+        - Code: https://github.com/...
+        - Weights: https://huggingface.co/...
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Comparability notes
+      description: Anything that affects fair comparison — extra training data, test-time augmentation, ensembling, dataset version, judge model.
+  - type: checkboxes
+    id: verify
+    attributes:
+      label: Verification
+      options:
+        - label: I checked these numbers against the primary source myself (not via an LLM summary)
+          required: true
+        - label: I am an author of this work
