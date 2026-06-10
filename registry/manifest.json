@@ -6,16 +6,16 @@
   "note": "Snapshot of the CodeSOTA registry. The Neon database is the source of truth; this is a deterministic, public mirror. Hidden/commercial rows are excluded.",
   "counts": {
     "areas": 24,
-    "tasks": 147,
-    "datasets": 789,
+    "tasks": 149,
+    "datasets": 782,
     "models": 2441,
     "papers": 34873,
-    "benchmarkResults": 11922,
+    "benchmarkResults": 11851,
     "paperTasks": 32917,
     "paperDatasets": 40,
     "paperModels": 39,
-    "sources": 21,
-    "claims": 33,
+    "sources": 24,
+    "claims": 34,
     "trustSignals": 6,
     "lineages": 0
   }

@@ -7,7 +7,7 @@
   },
   {
     "id": "3d-understanding",
-    "area": "1",
+    "area": "computer-vision",
     "name": "3D Understanding",
     "description": "Tasks related to understanding and processing 3D data, including 3D object detection, 3D reconstruction, multi-view estimation, and 3D scene understanding."
   },
@@ -181,7 +181,7 @@
   },
   {
     "id": "depth-estimation",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Depth estimation",
     "description": "Depth estimation is the computer vision task for inferring the 3D spatial structure of a scene from 2D images, often resulting in a depth map that shows the distance of each pixel from the camera. It enables applications like autonomous navigation, 3D reconstruction, and augmented reality by providing a measure of distance for various points in a scene. Depth estimation can use a single camera (monocular) or multiple cameras (stereoscopic) and can be either absolute, providing precise measurements in units like meters, or relative, which indicates the order of distances without exact values."
   },
@@ -295,13 +295,13 @@
   },
   {
     "id": "image-classification",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Image Classification",
     "description": "Image Classification is a fundamental task in computer vision that aims to assign a label or class to an entire image. The goal is to train a model that can recognize and categorize images into predefined classes."
   },
   {
     "id": "image-editing",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Image editing",
     "description": "Image editing is the process of altering and improving images, whether digital or traditional, using specialized tools and software to enhance their quality, appearance, and functionality. This can involve simple tasks like cropping and color correction or complex techniques such as layering, retouching to remove blemishes, and creating new composite images. The goal of image editing is to make images more aesthetically pleasing, correct flaws, or achieve a desired artistic effect."
   },
@@ -313,13 +313,13 @@
   },
   {
     "id": "image-generation",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Image generation",
     "description": "AI image generation uses generative AI to create new visual content from text prompts or existing images, by learning patterns from massive datasets of images and text. These trained algorithms, often neural networks, then produce novel images that are statistically likely to fit the provided prompt, mimicking styles, shapes, and colors they've learned. Examples of such models include Midjourney, Stable Diffusion, and DALL-E."
   },
   {
     "id": "image-segmentation",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Image segmentation",
     "description": "Image segmentation is a computer vision technique that divides a digital image into multiple parts or \"segments,\" where each segment contains pixels with similar characteristics, such as color, texture, or brightness. The goal is to simplify an image by changing its representation into something more meaningful and easier to analyze, often by identifying and locating objects, their boundaries, and different regions within the image. This process has wide-ranging applications, from medical image analysis to autonomous vehicles and satellite imagery."
   },
@@ -451,19 +451,19 @@
   },
   {
     "id": "object-counting",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Object counting",
     "description": "Object counting in AI is a computer vision task that uses machine learning and image processing to identify and enumerate distinct objects within digital images and videos. It can differentiate between various object types, sizes, and shapes, even in crowded or dynamically changing scenes. The process typically involves object detection using deep learning models like convolutional neural networks (CNNs) to recognize and localize objects, followed by aggregation to provide a total count. This technology is applied in fields like manufacturing for quality control and production monitoring."
   },
   {
     "id": "object-detection",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Object Detection",
     "description": "Object Detection is a computer vision task that involves identifying and localizing objects within an image. The goal is to detect instances or objects of a certain class (such as humans, buildings, or cars) in digital images and videos. Object detection models typically output a set of bounding boxes with corresponding predicted class names."
   },
   {
     "id": "ocr",
-    "area": "1",
+    "area": "computer-vision",
     "name": "OCR",
     "description": "OCR, or Optical Character Recognition, is the task of converting an image containing text into machine-readable, editable, and searchable digital text data. This involves converting scanned documents, photos, or image-only PDFs to text from their static visual format, enabling the document to be edited, searched, or used for data entry and other applications. Examples include digitizing receipts for your bank app, translating signs with Google Translate, or creating searchable archives from old documents."
   },
@@ -487,7 +487,7 @@
   },
   {
     "id": "open-vocabulary-object-detection",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Open-Vocabulary Object Detection",
     "description": "Object detection with open vocabulary - detecting objects from arbitrary text descriptions without being limited to a fixed set of categories."
   },
@@ -648,6 +648,12 @@
     "description": "Verifying speaker identity from voice samples."
   },
   {
+    "id": "speech-enhancement",
+    "area": "speech",
+    "name": "Speech Enhancement",
+    "description": "Recovering clean speech from noisy recordings. Benchmarked on VoiceBank+DEMAND (PESQ, STOI, SI-SDR) and the Microsoft DNS Challenge (DNSMOS)."
+  },
+  {
     "id": "speech-recognition",
     "area": "speech",
     "name": "Speech Recognition",
@@ -694,6 +700,12 @@
     "area": "time-series",
     "name": "Tabular Classification",
     "description": "Tabular classification — predicting discrete labels from structured rows and columns — remains the one domain where gradient-boosted trees (XGBoost, LightGBM, CatBoost) stubbornly rival deep learning. Despite years of effort, neural approaches like TabNet (2019) and FT-Transformer (2021) only match tree methods on certain splits, and a 2022 NeurIPS study by Grinsztajn et al. confirmed that trees still dominate on medium-sized datasets. The real frontier is AutoML systems (AutoGluon, FLAML) that ensemble both paradigms, and the emerging question of whether foundation models pretrained on millions of tables can finally tip the balance."
+  },
+  {
+    "id": "tabular-ml",
+    "area": "time-series",
+    "name": "Tabular Machine Learning",
+    "description": "Classification and regression on tabular data. Benchmarked on TabArena (Elo over 51 datasets); gradient-boosted trees vs tabular foundation models like TabPFN."
   },
   {
     "id": "tabular-regression",
@@ -787,7 +799,7 @@
   },
   {
     "id": "video-classification",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Video classification",
     "description": "The task of classifying videos into predefined categories or classes. Video classification involves analyzing temporal sequences of frames to understand the content and assign appropriate labels to entire video clips."
   },
@@ -805,7 +817,7 @@
   },
   {
     "id": "video-segmentation",
-    "area": "1",
+    "area": "computer-vision",
     "name": "Video segmentation",
     "description": "Video segmentation is the task of partitioning video frames into multiple segments or objects. Unlike image segmentation which works on static images, video segmentation tracks objects across frames in a video sequence."
   },

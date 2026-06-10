@@ -172,5 +172,29 @@
     "url": null,
     "authors": [],
     "publishedDate": null
+  },
+  {
+    "id": "25",
+    "type": "community_submission",
+    "title": "DIAG-WRITE-1780677498",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "26",
+    "type": "community_submission",
+    "title": "PROD-E2E-VERIFY-1780678370",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
+  },
+  {
+    "id": "27",
+    "type": "community_submission",
+    "title": "Coronary Artery Segmentation",
+    "url": null,
+    "authors": [],
+    "publishedDate": null
   }
 ]

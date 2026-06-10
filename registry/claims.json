@@ -894,5 +894,26 @@
     },
     "confidence": null,
     "extractor": "ingest-paper"
+  },
+  {
+    "id": "38",
+    "source": "27",
+    "paper": null,
+    "task": null,
+    "dataset": null,
+    "model": null,
+    "benchmarkResult": null,
+    "type": "other",
+    "status": "pending",
+    "statement": "Submitted source for registry review: Coronary Artery Segmentation",
+    "extractedValue": {
+      "area": null,
+      "notes": "Coronary Artery Segmentation\n\n---\nSubmitted from: Disease Classification\nPath: /tasks/disease-classification",
+      "title": "Coronary Artery Segmentation",
+      "arxiv_id": null,
+      "submission_id": 14
+    },
+    "confidence": null,
+    "extractor": "submit-paper"
   }
 ]
