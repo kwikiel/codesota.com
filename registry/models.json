@@ -24057,6 +24057,32 @@
     "huggingface": null
   },
   {
+    "id": "slayerlab-slayer1b-1.00",
+    "name": "SlayerLab/Slayer1B-1.00",
+    "vendor": "Fabryka AI (SlayerLab)",
+    "type": "open-weights",
+    "license": "Apache-2.0",
+    "architecture": "Decoder-only Transformer (native PyTorch)",
+    "parameters": "1.073912851B",
+    "bestFor": [],
+    "notes": "Polish-dominant base language model: 1,073,912,851 parameters with tied embeddings counted once; 1,499,463,680 training tokens. No instruction or safety tuning. Uses the published native load_slayer.py and R23 GPT implementation, not transformers AutoModel.",
+    "github": null,
+    "huggingface": "https://huggingface.co/SlayerLab/Slayer1B-1.00"
+  },
+  {
+    "id": "slayerlab-slayer1b-1.01",
+    "name": "SlayerLab/Slayer1B-1.01",
+    "vendor": "Fabryka AI (SlayerLab)",
+    "type": "open-weights",
+    "license": "Apache-2.0",
+    "architecture": "Decoder-only Transformer (native PyTorch)",
+    "parameters": "1.073912851B",
+    "bestFor": [],
+    "notes": "Polish-dominant base language model: 1,073,912,851 parameters with tied embeddings counted once; 2,998,927,360 training tokens. Continues version 1.00 from a pre-decay checkpoint. No instruction or safety tuning. Uses the published native load_slayer.py and R23 GPT implementation, not transformers AutoModel.",
+    "github": null,
+    "huggingface": "https://huggingface.co/SlayerLab/Slayer1B-1.01"
+  },
+  {
     "id": "sldd-model",
     "name": "SLDD-Model",
     "vendor": "Unknown",
